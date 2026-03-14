@@ -1,0 +1,1646 @@
+{
+    "_meta": {
+        "version": "2.1",
+        "total_careers": 20,
+        "last_updated": "2025",
+        "scoring_dimensions": [
+            "analytical",
+            "technical",
+            "creative",
+            "social",
+            "leadership",
+            "business",
+            "research"
+        ]
+    },
+    "careers": [
+        {
+            "id": "data_scientist",
+            "name": "Data Scientist",
+            "emoji": "📊",
+            "category": "Technology & Analytics",
+            "stream": "Science – Technology",
+            "description": "Extract actionable insights from large, complex datasets using statistical modelling and machine learning to drive business and scientific decisions.",
+            "required_skills": [
+                "Python",
+                "Machine Learning",
+                "Statistics",
+                "SQL",
+                "Data Visualization",
+                "Deep Learning"
+            ],
+            "soft_skills": [
+                "Critical Thinking",
+                "Communication",
+                "Intellectual Curiosity",
+                "Attention to Detail"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM + Computer Science)",
+                "B.Tech / B.Sc → Computer Science, Statistics, or Mathematics",
+                "M.Sc / M.Tech → Data Science or AI/ML (optional, high ROI)",
+                "Certifications → Google Data Analytics, IBM Data Science Professional"
+            ],
+            "top_colleges_india": [
+                "IIT Bombay",
+                "IIT Delhi",
+                "IISc Bangalore",
+                "BITS Pilani",
+                "CMI Chennai",
+                "IIT Madras"
+            ],
+            "entrance_exams": [
+                "JEE Advanced",
+                "JEE Main",
+                "BITSAT",
+                "CUCET",
+                "IISER Aptitude Test"
+            ],
+            "avg_salary_inr": {
+                "entry": "8–14 LPA",
+                "mid": "18–35 LPA",
+                "senior": "40–90 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "80K",
+                "mid": "130K",
+                "senior": "200K+"
+            },
+            "future_demand": "Very High",
+            "demand_growth_pct": 45,
+            "global_scope": true,
+            "job_market_note": "Data Scientist roles are projected to grow 45 % by 2030. Severe shortage of skilled professionals in India and globally.",
+            "profile_weights": {
+                "analytical": 0.30,
+                "technical": 0.28,
+                "research": 0.22,
+                "creative": 0.08,
+                "leadership": 0.06,
+                "social": 0.04,
+                "business": 0.02
+            },
+            "riasec": [
+                "I",
+                "R",
+                "C"
+            ],
+            "suggested_next_skills": [
+                "LLMs / Generative AI",
+                "MLOps",
+                "Spark",
+                "Cloud Platforms",
+                "Time-Series Forecasting"
+            ],
+            "work_environment": "Office / Remote – tech company, startup, research lab, or consultancy",
+            "daily_tasks": [
+                "Build predictive models",
+                "Write code to clean and analyse data",
+                "Present findings to stakeholders",
+                "Collaborate with engineers on deployment"
+            ]
+        },
+        {
+            "id": "ai_ml_engineer",
+            "name": "AI / ML Engineer",
+            "emoji": "🤖",
+            "category": "Artificial Intelligence",
+            "stream": "Science – Technology",
+            "description": "Design, train, and deploy production-grade machine-learning systems and neural networks that solve real-world problems at scale.",
+            "required_skills": [
+                "Python",
+                "TensorFlow / PyTorch",
+                "System Design",
+                "Cloud Computing",
+                "Mathematics",
+                "Distributed Systems"
+            ],
+            "soft_skills": [
+                "Problem Solving",
+                "Continuous Learning",
+                "Precision",
+                "Team Collaboration"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM + Computer Science)",
+                "B.Tech → Computer Science, AI, or Electronics",
+                "M.Tech / MS → Artificial Intelligence or Machine Learning",
+                "Self-study → Deep Learning Specialization (Coursera / fast.ai)"
+            ],
+            "top_colleges_india": [
+                "IIT Madras",
+                "IIT Bombay",
+                "IIIT Hyderabad",
+                "IIT Delhi",
+                "BITS Pilani",
+                "IIT Kharagpur"
+            ],
+            "entrance_exams": [
+                "JEE Advanced",
+                "JEE Main",
+                "BITSAT",
+                "IIIT UGEE"
+            ],
+            "avg_salary_inr": {
+                "entry": "10–18 LPA",
+                "mid": "22–55 LPA",
+                "senior": "55–130 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "100K",
+                "mid": "160K",
+                "senior": "250K+"
+            },
+            "future_demand": "Very High",
+            "demand_growth_pct": 55,
+            "global_scope": true,
+            "job_market_note": "India's AI market is growing at 25 % CAGR. AI engineers are the highest-paid tech professionals globally in 2024–25.",
+            "profile_weights": {
+                "analytical": 0.28,
+                "technical": 0.35,
+                "research": 0.20,
+                "creative": 0.08,
+                "leadership": 0.05,
+                "social": 0.02,
+                "business": 0.02
+            },
+            "riasec": [
+                "I",
+                "R"
+            ],
+            "suggested_next_skills": [
+                "LLM Fine-tuning",
+                "CUDA / GPU Programming",
+                "Reinforcement Learning",
+                "MLOps",
+                "Distributed Training"
+            ],
+            "work_environment": "Tech companies, AI startups, research labs – mostly office/remote hybrid",
+            "daily_tasks": [
+                "Train & evaluate ML models",
+                "Write production-grade Python code",
+                "Optimise inference pipelines",
+                "Review research papers and implement ideas"
+            ]
+        },
+        {
+            "id": "software_engineer",
+            "name": "Software Engineer",
+            "emoji": "💻",
+            "category": "Technology",
+            "stream": "Science – Technology",
+            "description": "Design, develop, and maintain software systems and applications that power the digital world.",
+            "required_skills": [
+                "Data Structures & Algorithms",
+                "System Design",
+                "Java / Python / C++",
+                "Databases",
+                "Version Control (Git)"
+            ],
+            "soft_skills": [
+                "Problem Solving",
+                "Teamwork",
+                "Adaptability",
+                "Communication"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM + CS)",
+                "B.Tech → Computer Science or Information Technology",
+                "Competitive programming (LeetCode, Codeforces)",
+                "Portfolio on GitHub + open-source contributions"
+            ],
+            "top_colleges_india": [
+                "IITs",
+                "NITs",
+                "BITS Pilani",
+                "IIIT Hyderabad",
+                "VIT Vellore"
+            ],
+            "entrance_exams": [
+                "JEE Advanced",
+                "JEE Main",
+                "BITSAT",
+                "VITEEE",
+                "MHT-CET"
+            ],
+            "avg_salary_inr": {
+                "entry": "6–15 LPA",
+                "mid": "20–45 LPA",
+                "senior": "45–100 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "75K",
+                "mid": "130K",
+                "senior": "200K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 35,
+            "global_scope": true,
+            "job_market_note": "Software engineering is the single largest tech job category globally. Remote work has expanded opportunities enormously.",
+            "profile_weights": {
+                "technical": 0.40,
+                "analytical": 0.28,
+                "creative": 0.14,
+                "leadership": 0.08,
+                "research": 0.05,
+                "social": 0.03,
+                "business": 0.02
+            },
+            "riasec": [
+                "I",
+                "R",
+                "C"
+            ],
+            "suggested_next_skills": [
+                "Cloud Platforms (AWS/GCP/Azure)",
+                "Microservices",
+                "DevOps/CI-CD",
+                "System Design at Scale",
+                "React / Node.js"
+            ],
+            "work_environment": "Product companies, service firms, startups – hybrid/remote common",
+            "daily_tasks": [
+                "Write and review code",
+                "Participate in design discussions",
+                "Debug production issues",
+                "Collaborate with product & design teams"
+            ]
+        },
+        {
+            "id": "robotics_engineer",
+            "name": "Robotics Engineer",
+            "emoji": "🦾",
+            "category": "Engineering & Automation",
+            "stream": "Science – Engineering",
+            "description": "Design and build autonomous robotic systems that combine mechanical engineering, electronics, and AI for manufacturing, healthcare, and exploration.",
+            "required_skills": [
+                "Mechanical CAD (SolidWorks)",
+                "Electronics / Embedded Systems",
+                "C++ / Python / ROS",
+                "Control Systems",
+                "Computer Vision"
+            ],
+            "soft_skills": [
+                "Spatial Reasoning",
+                "Precision",
+                "Systems Thinking",
+                "Innovation"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM)",
+                "B.Tech → Mechanical / Electrical / Mechatronics / Robotics",
+                "M.Tech → Robotics and Automation",
+                "Hands-on: Arduino, Raspberry Pi, ROS projects"
+            ],
+            "top_colleges_india": [
+                "IIT Kanpur",
+                "IIT Bombay",
+                "IIT Delhi",
+                "IIT Madras",
+                "BITS Pilani",
+                "IIST Trivandrum"
+            ],
+            "entrance_exams": [
+                "JEE Advanced",
+                "JEE Main",
+                "GATE (PG)"
+            ],
+            "avg_salary_inr": {
+                "entry": "7–13 LPA",
+                "mid": "16–38 LPA",
+                "senior": "38–80 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "70K",
+                "mid": "110K",
+                "senior": "180K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 40,
+            "global_scope": true,
+            "job_market_note": "Industry 4.0, autonomous vehicles, surgical robots, and defence automation are driving massive demand.",
+            "profile_weights": {
+                "technical": 0.35,
+                "analytical": 0.30,
+                "research": 0.16,
+                "creative": 0.10,
+                "leadership": 0.05,
+                "social": 0.02,
+                "business": 0.02
+            },
+            "riasec": [
+                "R",
+                "I"
+            ],
+            "suggested_next_skills": [
+                "ROS2",
+                "Computer Vision (OpenCV)",
+                "SLAM",
+                "Industrial Automation (PLC)",
+                "Embedded C++"
+            ],
+            "work_environment": "R&D labs, manufacturing plants, aerospace firms, defence research",
+            "daily_tasks": [
+                "Design mechanical and electronic sub-systems",
+                "Program robot behaviour",
+                "Run simulation (Gazebo/MuJoCo)",
+                "Test and debug on physical hardware"
+            ]
+        },
+        {
+            "id": "research_scientist",
+            "name": "Research Scientist",
+            "emoji": "🔬",
+            "category": "Science & Research",
+            "stream": "Science – Research",
+            "description": "Conduct original scientific investigations to advance knowledge in physics, chemistry, biology, materials science, or computing.",
+            "required_skills": [
+                "Scientific Method",
+                "Statistical Analysis",
+                "Academic Writing",
+                "Domain Expertise",
+                "Lab Skills"
+            ],
+            "soft_skills": [
+                "Deep Curiosity",
+                "Patience",
+                "Critical Thinking",
+                "Intellectual Honesty"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM or PCB)",
+                "B.Sc → Physics / Chemistry / Biology / Mathematics",
+                "M.Sc → Specialised discipline",
+                "Ph.D → IISc / TIFR / IITs / IISER"
+            ],
+            "top_colleges_india": [
+                "IISc Bangalore",
+                "TIFR Mumbai",
+                "IITs",
+                "IISER Pune/Kolkata/Mohali",
+                "JNCASR"
+            ],
+            "entrance_exams": [
+                "KVPY",
+                "IISER Aptitude Test",
+                "JAM",
+                "CSIR-NET",
+                "GATE"
+            ],
+            "avg_salary_inr": {
+                "entry": "6–12 LPA",
+                "mid": "14–30 LPA",
+                "senior": "30–65 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "55K",
+                "mid": "90K",
+                "senior": "150K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 30,
+            "global_scope": true,
+            "job_market_note": "Global R&D investment is at an all-time high. Pharma, space, defence, and quantum computing research are booming.",
+            "profile_weights": {
+                "research": 0.40,
+                "analytical": 0.30,
+                "technical": 0.14,
+                "creative": 0.10,
+                "social": 0.04,
+                "leadership": 0.02,
+                "business": 0.00
+            },
+            "riasec": [
+                "I",
+                "R"
+            ],
+            "suggested_next_skills": [
+                "Research Paper Writing",
+                "Grant Writing",
+                "Advanced Statistical Software (R/MATLAB)",
+                "Domain Expertise Deepening",
+                "Lab Management"
+            ],
+            "work_environment": "University labs, national research institutions, private R&D centres",
+            "daily_tasks": [
+                "Design and run experiments",
+                "Analyse and interpret data",
+                "Write and publish papers",
+                "Present findings at conferences"
+            ]
+        },
+        {
+            "id": "biomedical_engineer",
+            "name": "Biomedical Engineer",
+            "emoji": "🩺",
+            "category": "Healthcare & Technology",
+            "stream": "Science – Medical Technology",
+            "description": "Apply engineering principles to healthcare — design medical devices, prosthetics, imaging systems, and drug-delivery technologies.",
+            "required_skills": [
+                "Biology",
+                "Engineering Fundamentals",
+                "Medical Device Design",
+                "MATLAB / Python",
+                "Regulatory Knowledge (FDA / CDSCO)"
+            ],
+            "soft_skills": [
+                "Empathy",
+                "Precision",
+                "Innovation",
+                "Cross-disciplinary Collaboration"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCB + Mathematics)",
+                "B.Tech → Biomedical Engineering",
+                "M.Tech → Biomedical / Bioelectronics",
+                "Optional → MD-PhD dual path for clinical-research focus"
+            ],
+            "top_colleges_india": [
+                "IIT Bombay",
+                "IIT Madras",
+                "Manipal Institute of Technology",
+                "SRM University",
+                "AIIMS (research track)"
+            ],
+            "entrance_exams": [
+                "JEE Main",
+                "NEET (medical track)",
+                "COMEDK",
+                "MHT-CET"
+            ],
+            "avg_salary_inr": {
+                "entry": "5–10 LPA",
+                "mid": "12–28 LPA",
+                "senior": "28–60 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "55K",
+                "mid": "90K",
+                "senior": "160K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 38,
+            "global_scope": true,
+            "job_market_note": "Post-pandemic healthcare investment boom. Wearables, diagnostics, and medical AI are the fastest-growing segments.",
+            "profile_weights": {
+                "technical": 0.26,
+                "analytical": 0.24,
+                "research": 0.20,
+                "social": 0.14,
+                "creative": 0.10,
+                "leadership": 0.04,
+                "business": 0.02
+            },
+            "riasec": [
+                "I",
+                "R",
+                "S"
+            ],
+            "suggested_next_skills": [
+                "FDA / CDSCO Regulations",
+                "Medical Imaging (MRI/CT)",
+                "Clinical Trial Protocols",
+                "Health Informatics",
+                "AI in Diagnostics"
+            ],
+            "work_environment": "Hospitals, medical device companies, pharma R&D, government labs",
+            "daily_tasks": [
+                "Design prototypes of medical devices",
+                "Run bench/clinical testing",
+                "Navigate regulatory filings",
+                "Collaborate with clinicians and engineers"
+            ]
+        },
+        {
+            "id": "ux_ui_designer",
+            "name": "UX / UI Designer",
+            "emoji": "🎨",
+            "category": "Design & Technology",
+            "stream": "Arts – Design Technology",
+            "description": "Create intuitive, beautiful digital product experiences by combining user psychology, visual design, and interaction principles.",
+            "required_skills": [
+                "Figma / Adobe XD",
+                "User Research",
+                "Prototyping & Wireframing",
+                "Visual Design",
+                "Usability Testing",
+                "HTML/CSS basics"
+            ],
+            "soft_skills": [
+                "Empathy",
+                "Creative Vision",
+                "Attention to Detail",
+                "Storytelling"
+            ],
+            "education_path": [
+                "Class 11–12 → Any stream (Arts/PCM both work)",
+                "B.Des → Communication / Industrial Design from NID or NIFT",
+                "Or B.Tech → CS + design specialisation",
+                "Portfolio of 5–8 case studies + internships essential"
+            ],
+            "top_colleges_india": [
+                "NID Ahmedabad",
+                "IIT IDC Mumbai",
+                "Srishti Manipal Institute",
+                "Symbiosis Design",
+                "MIT Institute of Design"
+            ],
+            "entrance_exams": [
+                "NID DAT",
+                "UCEED",
+                "NIFT Entrance",
+                "CEED (PG)"
+            ],
+            "avg_salary_inr": {
+                "entry": "4–9 LPA",
+                "mid": "12–30 LPA",
+                "senior": "30–70 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "55K",
+                "mid": "100K",
+                "senior": "160K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 35,
+            "global_scope": true,
+            "job_market_note": "Every digital product needs UX designers. The role has expanded into AI product design, AR/VR, and voice interfaces.",
+            "profile_weights": {
+                "creative": 0.40,
+                "social": 0.20,
+                "analytical": 0.18,
+                "technical": 0.14,
+                "leadership": 0.05,
+                "research": 0.02,
+                "business": 0.01
+            },
+            "riasec": [
+                "A",
+                "I",
+                "S"
+            ],
+            "suggested_next_skills": [
+                "Design Systems",
+                "Accessibility (WCAG)",
+                "Motion Design",
+                "AI-assisted Design Tools",
+                "User Research Methods"
+            ],
+            "work_environment": "Product companies, design agencies, startups – remote-friendly",
+            "daily_tasks": [
+                "Conduct user interviews",
+                "Sketch and prototype flows",
+                "Present designs to stakeholders",
+                "Iterate based on usability testing"
+            ]
+        },
+        {
+            "id": "clinical_psychologist",
+            "name": "Clinical Psychologist",
+            "emoji": "🧠",
+            "category": "Healthcare & Mental Health",
+            "stream": "Arts / Science – Psychology",
+            "description": "Assess and treat mental health disorders through therapeutic interventions, psychological testing, and counselling.",
+            "required_skills": [
+                "Psychological Assessment",
+                "CBT / DBT Therapy",
+                "Research Methods",
+                "Diagnostic Criteria (DSM-5 / ICD-11)",
+                "Empathetic Listening"
+            ],
+            "soft_skills": [
+                "Deep Empathy",
+                "Patience",
+                "Non-judgmental Attitude",
+                "Emotional Regulation"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCB) or Humanities",
+                "B.Sc / BA → Psychology",
+                "M.Sc / MA → Clinical Psychology",
+                "M.Phil (RCI-registered) or Ph.D for independent clinical practice"
+            ],
+            "top_colleges_india": [
+                "NIMHANS Bangalore",
+                "Delhi University",
+                "TISS Mumbai",
+                "Christ University Bangalore",
+                "Jamia Millia Islamia"
+            ],
+            "entrance_exams": [
+                "TISS NET",
+                "NIMHANS Entrance",
+                "University PG Entrance Tests"
+            ],
+            "avg_salary_inr": {
+                "entry": "3–7 LPA",
+                "mid": "8–22 LPA",
+                "senior": "22–55 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "50K",
+                "mid": "80K",
+                "senior": "130K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 42,
+            "global_scope": true,
+            "job_market_note": "Mental health awareness is rising dramatically. India has a severe shortage of trained psychologists — demand is outpacing supply.",
+            "profile_weights": {
+                "social": 0.40,
+                "research": 0.20,
+                "analytical": 0.20,
+                "creative": 0.10,
+                "leadership": 0.06,
+                "technical": 0.02,
+                "business": 0.02
+            },
+            "riasec": [
+                "S",
+                "I"
+            ],
+            "suggested_next_skills": [
+                "Trauma-Informed Care",
+                "Neuropsychology",
+                "Online Therapy Platforms",
+                "Positive Psychology",
+                "Group Therapy Facilitation"
+            ],
+            "work_environment": "Hospitals, private clinics, schools, NGOs, online therapy platforms",
+            "daily_tasks": [
+                "Conduct individual therapy sessions",
+                "Administer and score psychological tests",
+                "Maintain case notes",
+                "Supervise junior practitioners"
+            ]
+        },
+        {
+            "id": "chartered_accountant",
+            "name": "Chartered Accountant (CA)",
+            "emoji": "📑",
+            "category": "Finance & Commerce",
+            "stream": "Commerce – Finance",
+            "description": "Provide expert financial advice, audit accounts, ensure tax compliance, and guide businesses toward financial health and integrity.",
+            "required_skills": [
+                "Financial Accounting (IndAS/IFRS)",
+                "Taxation (Direct & Indirect)",
+                "Auditing",
+                "Company Law",
+                "Financial Modelling"
+            ],
+            "soft_skills": [
+                "Precision",
+                "Ethics",
+                "Analytical Thinking",
+                "Time Management"
+            ],
+            "education_path": [
+                "Class 11–12 → Commerce (Accountancy, Economics, Business Studies)",
+                "CA Foundation → after Class 12 (ICAI)",
+                "CA Intermediate → + 3-year articleship at a CA firm",
+                "CA Final → ICAI qualification"
+            ],
+            "top_colleges_india": [
+                "ICAI (All India)",
+                "Articleship at Big 4 (Deloitte / PwC / EY / KPMG)"
+            ],
+            "entrance_exams": [
+                "CA Foundation",
+                "CA Intermediate",
+                "CA Final"
+            ],
+            "avg_salary_inr": {
+                "entry": "6–12 LPA",
+                "mid": "15–45 LPA",
+                "senior": "45–160 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "50K",
+                "mid": "90K",
+                "senior": "200K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 28,
+            "global_scope": true,
+            "job_market_note": "CA remains one of India's most respected and well-paid professions. GST, IFRS adoption, and startup boom have sharply increased demand.",
+            "profile_weights": {
+                "analytical": 0.35,
+                "business": 0.30,
+                "technical": 0.14,
+                "leadership": 0.10,
+                "social": 0.06,
+                "research": 0.04,
+                "creative": 0.01
+            },
+            "riasec": [
+                "C",
+                "E"
+            ],
+            "suggested_next_skills": [
+                "FinTech / RegTech",
+                "Forensic Accounting",
+                "Transfer Pricing",
+                "ESG Reporting",
+                "International Taxation"
+            ],
+            "work_environment": "Big 4 firms, SME CA firms, corporate finance departments, Big Tech",
+            "daily_tasks": [
+                "Prepare and review financial statements",
+                "Conduct audits",
+                "Advise on tax planning",
+                "Liaise with regulators and clients"
+            ]
+        },
+        {
+            "id": "investment_banker",
+            "name": "Investment Banker",
+            "emoji": "🏦",
+            "category": "Finance & Business",
+            "stream": "Commerce – Finance",
+            "description": "Facilitate large financial transactions — IPOs, M&A deals, and capital raising — for corporations, governments, and institutions.",
+            "required_skills": [
+                "Financial Modelling (DCF / LBO)",
+                "Valuation",
+                "Excel / PowerPoint",
+                "Macroeconomics",
+                "Deal Structuring"
+            ],
+            "soft_skills": [
+                "High-pressure Performance",
+                "Networking",
+                "Persuasion",
+                "Strategic Thinking"
+            ],
+            "education_path": [
+                "Class 11–12 → Commerce or PCM",
+                "B.Com / BBA / B.Tech from a top college",
+                "MBA (Finance) → IIMs / ISB / top international school",
+                "CFA Level 1–3 adds significant value"
+            ],
+            "top_colleges_india": [
+                "IIM Ahmedabad",
+                "IIM Bangalore",
+                "IIM Calcutta",
+                "ISB Hyderabad",
+                "FMS Delhi"
+            ],
+            "entrance_exams": [
+                "CAT",
+                "GMAT",
+                "XAT",
+                "NMAT",
+                "CFA Level 1"
+            ],
+            "avg_salary_inr": {
+                "entry": "10–22 LPA",
+                "mid": "35–90 LPA",
+                "senior": "90–350 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "100K",
+                "mid": "200K",
+                "senior": "500K+"
+            },
+            "future_demand": "Moderate-High",
+            "demand_growth_pct": 22,
+            "global_scope": true,
+            "job_market_note": "India's startup ecosystem and capital markets are creating significant IB demand. Top IB roles remain highly competitive but extremely rewarding.",
+            "profile_weights": {
+                "business": 0.35,
+                "analytical": 0.30,
+                "leadership": 0.16,
+                "social": 0.10,
+                "technical": 0.05,
+                "research": 0.02,
+                "creative": 0.02
+            },
+            "riasec": [
+                "E",
+                "C"
+            ],
+            "suggested_next_skills": [
+                "M&A Modelling",
+                "LBO Analysis",
+                "Bloomberg Terminal",
+                "ESG / Sustainable Finance",
+                "Private Equity"
+            ],
+            "work_environment": "Bulge-bracket banks, boutique advisory firms, corporate treasury — intense but high-reward",
+            "daily_tasks": [
+                "Build financial models",
+                "Prepare pitch books",
+                "Conduct due diligence",
+                "Negotiate deal terms with clients"
+            ]
+        },
+        {
+            "id": "entrepreneur",
+            "name": "Entrepreneur / Startup Founder",
+            "emoji": "🚀",
+            "category": "Business & Innovation",
+            "stream": "Any Stream – Entrepreneurship",
+            "description": "Identify market opportunities, take calculated risks, and build businesses from scratch — creating products, services, and jobs.",
+            "required_skills": [
+                "Business Strategy",
+                "Product Thinking",
+                "Sales & Marketing",
+                "Financial Literacy",
+                "Team Building",
+                "Storytelling"
+            ],
+            "soft_skills": [
+                "Resilience",
+                "Vision",
+                "Risk Tolerance",
+                "Adaptability",
+                "Persistence"
+            ],
+            "education_path": [
+                "Any stream — passion and market insight matter far more",
+                "B.Tech / BBA / B.Com or even a focused gap year",
+                "MBA useful but not mandatory",
+                "Incubators: IIT / IIM / T-Hub / NASSCOM 10K Startups"
+            ],
+            "top_colleges_india": [
+                "IITs (tech startups)",
+                "IIMs (business startups)",
+                "XLRI",
+                "Startup India DPIIT registration"
+            ],
+            "entrance_exams": [
+                "CAT / JEE for top college access",
+                "Startup India DPIIT Registration"
+            ],
+            "avg_salary_inr": {
+                "entry": "Variable 0–5 LPA",
+                "mid": "Equity + 15–60 LPA",
+                "senior": "Unlimited — exit / equity value"
+            },
+            "avg_salary_global_usd": {
+                "entry": "Variable",
+                "mid": "100K+",
+                "senior": "Unlimited"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 50,
+            "global_scope": true,
+            "job_market_note": "India has 100+ unicorns. Government's Startup India and deep-tech funding are creating unprecedented opportunities for founders.",
+            "profile_weights": {
+                "leadership": 0.30,
+                "business": 0.30,
+                "creative": 0.16,
+                "social": 0.10,
+                "analytical": 0.10,
+                "technical": 0.02,
+                "research": 0.02
+            },
+            "riasec": [
+                "E",
+                "A"
+            ],
+            "suggested_next_skills": [
+                "Product Management",
+                "Growth Marketing",
+                "Unit Economics",
+                "Fundraising & Pitch",
+                "Venture Capital Landscape"
+            ],
+            "work_environment": "Your own startup — offices, garages, co-working spaces, or fully remote",
+            "daily_tasks": [
+                "Define product roadmap",
+                "Talk to customers",
+                "Recruit and motivate team",
+                "Manage runway and investors"
+            ]
+        },
+        {
+            "id": "civil_services",
+            "name": "Civil Services Officer (IAS / IPS / IFS)",
+            "emoji": "🏛️",
+            "category": "Government & Administration",
+            "stream": "Any Stream – Civil Services",
+            "description": "Serve the nation through policy-making, administration, law enforcement, and diplomacy as the backbone of India's governance.",
+            "required_skills": [
+                "Current Affairs",
+                "Essay Writing",
+                "General Studies",
+                "Ethics & Governance",
+                "Optional Subject Mastery"
+            ],
+            "soft_skills": [
+                "Leadership",
+                "Integrity",
+                "Empathy",
+                "Decision-making under Pressure",
+                "Communication"
+            ],
+            "education_path": [
+                "Any graduation (minimum eligibility)",
+                "UPSC CSE preparation — 1–3 years intensive",
+                "Optional coaching (Vajiram / Vision IAS) or structured self-study",
+                "State PCS as parallel pathway"
+            ],
+            "top_colleges_india": [
+                "Any accredited university",
+                "LBSNAA Mussoorie (IAS training)",
+                "SVP NPA Hyderabad (IPS)"
+            ],
+            "entrance_exams": [
+                "UPSC Civil Services Examination (Prelims + Mains + Interview)",
+                "State PCS Exams"
+            ],
+            "avg_salary_inr": {
+                "entry": "7–13 LPA (+ perks)",
+                "mid": "16–26 LPA (+ perks)",
+                "senior": "25–42 LPA (+ perks)"
+            },
+            "avg_salary_global_usd": {
+                "entry": "N/A (India-specific)",
+                "mid": "N/A",
+                "senior": "N/A"
+            },
+            "future_demand": "Stable",
+            "demand_growth_pct": 5,
+            "global_scope": false,
+            "job_market_note": "UPSC CSE is India's most prestigious exam — power, purpose, and impact attract lakhs of aspirants annually.",
+            "profile_weights": {
+                "social": 0.25,
+                "leadership": 0.25,
+                "analytical": 0.22,
+                "research": 0.15,
+                "business": 0.08,
+                "creative": 0.04,
+                "technical": 0.01
+            },
+            "riasec": [
+                "S",
+                "E"
+            ],
+            "suggested_next_skills": [
+                "Policy Analysis",
+                "Public Administration",
+                "Second Language",
+                "Crisis Management",
+                "International Relations"
+            ],
+            "work_environment": "District administration, central ministries, embassies, police service",
+            "daily_tasks": [
+                "Oversee district governance",
+                "Implement government schemes",
+                "Coordinate between departments",
+                "Address public grievances"
+            ]
+        },
+        {
+            "id": "architect",
+            "name": "Architect",
+            "emoji": "🏗️",
+            "category": "Design & Engineering",
+            "stream": "Science / Arts – Architecture",
+            "description": "Design functional, safe, and aesthetically compelling buildings, spaces, and urban environments that shape human civilization.",
+            "required_skills": [
+                "AutoCAD / Revit / ArchiCAD",
+                "Structural Design Basics",
+                "Site Analysis",
+                "3D Visualisation (3ds Max/Rhino)",
+                "Building Materials & Services"
+            ],
+            "soft_skills": [
+                "Spatial Thinking",
+                "Creative Vision",
+                "Client Communication",
+                "Project Management"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCM — Mathematics mandatory)",
+                "B.Arch → 5-year professional degree",
+                "Council of Architecture (CoA) registration",
+                "M.Arch → Urban Design / Sustainable Architecture"
+            ],
+            "top_colleges_india": [
+                "IIT Kharagpur",
+                "IIT Roorkee",
+                "CEPT Ahmedabad",
+                "SPA Delhi",
+                "KRVIA Mumbai"
+            ],
+            "entrance_exams": [
+                "NATA",
+                "JEE Paper 2 (B.Arch)"
+            ],
+            "avg_salary_inr": {
+                "entry": "3–8 LPA",
+                "mid": "10–28 LPA",
+                "senior": "28–90 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "45K",
+                "mid": "80K",
+                "senior": "150K+"
+            },
+            "future_demand": "Moderate-High",
+            "demand_growth_pct": 25,
+            "global_scope": true,
+            "job_market_note": "India's Smart Cities Mission and urban housing demand are driving significant growth. Sustainable and parametric design are booming niches.",
+            "profile_weights": {
+                "creative": 0.35,
+                "technical": 0.25,
+                "analytical": 0.18,
+                "social": 0.10,
+                "leadership": 0.07,
+                "research": 0.04,
+                "business": 0.01
+            },
+            "riasec": [
+                "A",
+                "R",
+                "I"
+            ],
+            "suggested_next_skills": [
+                "BIM (Revit / ArchiCAD)",
+                "Parametric Design (Grasshopper)",
+                "Sustainable / Green Architecture",
+                "Urban Planning",
+                "Project Management"
+            ],
+            "work_environment": "Architecture firms, government urban development bodies, real-estate developers",
+            "daily_tasks": [
+                "Create architectural drawings and 3D models",
+                "Consult with clients on design brief",
+                "Manage site supervision",
+                "Coordinate with structural and MEP consultants"
+            ]
+        },
+        {
+            "id": "lawyer",
+            "name": "Advocate / Corporate Lawyer",
+            "emoji": "⚖️",
+            "category": "Law & Justice",
+            "stream": "Humanities / Any – Law",
+            "description": "Represent clients, interpret laws, draft contracts, and advocate for justice across criminal, civil, corporate, or constitutional matters.",
+            "required_skills": [
+                "Legal Research",
+                "Contract Drafting",
+                "Case Analysis",
+                "Constitutional & Procedural Law",
+                "Argumentation"
+            ],
+            "soft_skills": [
+                "Persuasion",
+                "Critical Thinking",
+                "Ethics",
+                "Resilience",
+                "Attention to Detail"
+            ],
+            "education_path": [
+                "Class 11–12 → Any stream (Humanities preferred for BA LLB)",
+                "5-year integrated BA / BBA / B.Sc LLB via CLAT",
+                "Or 3-year LLB after any graduation",
+                "Specialisation → Corporate, IP, Taxation, International Law"
+            ],
+            "top_colleges_india": [
+                "NLSIU Bangalore",
+                "NLU Delhi",
+                "NALSAR Hyderabad",
+                "NUJS Kolkata",
+                "NLU Jodhpur"
+            ],
+            "entrance_exams": [
+                "CLAT",
+                "AILET",
+                "LSAT India"
+            ],
+            "avg_salary_inr": {
+                "entry": "4–10 LPA",
+                "mid": "15–55 LPA",
+                "senior": "55–500 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "60K",
+                "mid": "150K",
+                "senior": "500K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 30,
+            "global_scope": true,
+            "job_market_note": "India's startup ecosystem, digital regulations, and dispute resolution market are creating massive demand for corporate and tech lawyers.",
+            "profile_weights": {
+                "social": 0.26,
+                "analytical": 0.26,
+                "leadership": 0.20,
+                "research": 0.14,
+                "business": 0.10,
+                "creative": 0.03,
+                "technical": 0.01
+            },
+            "riasec": [
+                "E",
+                "S"
+            ],
+            "suggested_next_skills": [
+                "Cyber Law",
+                "M&A Due Diligence",
+                "Arbitration & Dispute Resolution",
+                "IP Law",
+                "AI & Data Privacy Regulation"
+            ],
+            "work_environment": "Law firms, in-house legal departments, courts, international organisations",
+            "daily_tasks": [
+                "Draft and review contracts",
+                "Conduct legal research",
+                "Appear before courts or tribunals",
+                "Advise clients on legal risk"
+            ]
+        },
+        {
+            "id": "doctor_mbbs",
+            "name": "Medical Doctor (MBBS + Specialisation)",
+            "emoji": "🏥",
+            "category": "Healthcare",
+            "stream": "Science – Medical",
+            "description": "Diagnose and treat illnesses, injuries, and medical conditions — directly impacting human lives through clinical practice.",
+            "required_skills": [
+                "Human Anatomy & Physiology",
+                "Clinical Diagnosis",
+                "Pharmacology",
+                "Patient Communication",
+                "Evidence-Based Medicine"
+            ],
+            "soft_skills": [
+                "Empathy",
+                "Composure under Pressure",
+                "Ethical Judgment",
+                "Lifelong Learning"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCB — Biology mandatory)",
+                "MBBS → 5.5 years (4.5 + 1-year compulsory internship)",
+                "MD / MS → 3-year specialisation",
+                "Optional → Super-specialisation (DM / M.Ch)"
+            ],
+            "top_colleges_india": [
+                "AIIMS Delhi",
+                "JIPMER Puducherry",
+                "CMC Vellore",
+                "Maulana Azad Medical College",
+                "Grant Medical College Mumbai"
+            ],
+            "entrance_exams": [
+                "NEET-UG",
+                "NEET-PG",
+                "AIIMS PG Entrance",
+                "FMGE (foreign graduates)"
+            ],
+            "avg_salary_inr": {
+                "entry": "8–16 LPA",
+                "mid": "22–65 LPA",
+                "senior": "55–350 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "80K",
+                "mid": "200K",
+                "senior": "500K+"
+            },
+            "future_demand": "Very High",
+            "demand_growth_pct": 20,
+            "global_scope": true,
+            "job_market_note": "India has a shortage of over 6 lakh doctors. Global pathways include USMLE (USA), PLAB (UK), AMC (Australia), and MCCQE (Canada).",
+            "profile_weights": {
+                "social": 0.26,
+                "analytical": 0.24,
+                "research": 0.20,
+                "technical": 0.14,
+                "leadership": 0.10,
+                "creative": 0.04,
+                "business": 0.02
+            },
+            "riasec": [
+                "I",
+                "S",
+                "R"
+            ],
+            "suggested_next_skills": [
+                "Clinical Research",
+                "Telemedicine",
+                "Healthcare Management",
+                "Medical AI / Imaging",
+                "Global Health"
+            ],
+            "work_environment": "Hospitals, clinics, research institutions, public health agencies",
+            "daily_tasks": [
+                "Examine and diagnose patients",
+                "Order and interpret investigations",
+                "Prescribe and monitor treatment",
+                "Teach and mentor junior doctors"
+            ]
+        },
+        {
+            "id": "product_manager",
+            "name": "Product Manager",
+            "emoji": "📱",
+            "category": "Technology & Business",
+            "stream": "Any Stream – Product Management",
+            "description": "Define the vision, strategy, and roadmap for digital products — bridging engineering, design, and business to build things people love.",
+            "required_skills": [
+                "Product Strategy",
+                "User Research",
+                "Data Analysis",
+                "Roadmap Planning",
+                "Stakeholder Management",
+                "A/B Testing"
+            ],
+            "soft_skills": [
+                "Empathy",
+                "Decisiveness",
+                "Communication",
+                "Strategic Thinking",
+                "Prioritisation"
+            ],
+            "education_path": [
+                "Any stream — B.Tech / BBA / B.Sc / BA",
+                "MBA from IIM or top B-school (fast-track route)",
+                "Or: 3–5 years in engineering / design / marketing first",
+                "Certifications: Pragmatic Institute, AIPMM, Product School"
+            ],
+            "top_colleges_india": [
+                "IIMs",
+                "IITs (as pre-MBA)",
+                "ISB Hyderabad",
+                "XLRI",
+                "SP Jain"
+            ],
+            "entrance_exams": [
+                "CAT",
+                "GMAT",
+                "XAT",
+                "Lateral hiring from tech/consulting"
+            ],
+            "avg_salary_inr": {
+                "entry": "12–22 LPA",
+                "mid": "25–60 LPA",
+                "senior": "60–180 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "100K",
+                "mid": "160K",
+                "senior": "350K+"
+            },
+            "future_demand": "Very High",
+            "demand_growth_pct": 40,
+            "global_scope": true,
+            "job_market_note": "PM is consistently one of the most-hired roles in tech. India's SaaS and consumer tech booms are creating enormous demand.",
+            "profile_weights": {
+                "analytical": 0.28,
+                "business": 0.24,
+                "social": 0.18,
+                "leadership": 0.16,
+                "creative": 0.08,
+                "technical": 0.04,
+                "research": 0.02
+            },
+            "riasec": [
+                "E",
+                "I",
+                "S"
+            ],
+            "suggested_next_skills": [
+                "SQL & Analytics",
+                "User Story Mapping",
+                "OKRs",
+                "Growth Product Management",
+                "AI Product Strategy"
+            ],
+            "work_environment": "Tech companies, SaaS startups, e-commerce — mostly office/remote hybrid",
+            "daily_tasks": [
+                "Write product requirements",
+                "Prioritise feature backlog",
+                "Review analytics dashboards",
+                "Align engineering, design, and business teams"
+            ]
+        },
+        {
+            "id": "fashion_designer",
+            "name": "Fashion / Textile Designer",
+            "emoji": "👗",
+            "category": "Creative Arts & Design",
+            "stream": "Arts / Commerce – Fashion Design",
+            "description": "Create clothing, accessories, and textile collections by combining aesthetic sensibility, cultural awareness, and garment construction expertise.",
+            "required_skills": [
+                "Sketching & Illustration",
+                "Pattern Making",
+                "Textile Knowledge",
+                "Adobe Illustrator / Photoshop",
+                "Trend Research"
+            ],
+            "soft_skills": [
+                "Aesthetic Eye",
+                "Trend Awareness",
+                "Creativity",
+                "Attention to Detail",
+                "Business Sense"
+            ],
+            "education_path": [
+                "Class 11–12 → Any stream (Arts preferred)",
+                "B.Des / B.F.Tech → Fashion Design from NIFT / NID",
+                "Optional: Master's in Fashion Management or Textile Technology",
+                "Portfolio is more important than marks"
+            ],
+            "top_colleges_india": [
+                "NIFT Delhi / Mumbai / Bangalore",
+                "NID Ahmedabad",
+                "Pearl Academy",
+                "Symbiosis School of Design"
+            ],
+            "entrance_exams": [
+                "NIFT Entrance Test",
+                "NID DAT",
+                "UCEED"
+            ],
+            "avg_salary_inr": {
+                "entry": "3–7 LPA",
+                "mid": "8–22 LPA",
+                "senior": "22–80 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "35K",
+                "mid": "70K",
+                "senior": "200K+"
+            },
+            "future_demand": "Moderate",
+            "demand_growth_pct": 18,
+            "global_scope": true,
+            "job_market_note": "India's fashion industry is one of the world's largest. Sustainable fashion and D2C brands are creating new design opportunities.",
+            "profile_weights": {
+                "creative": 0.50,
+                "social": 0.18,
+                "business": 0.14,
+                "technical": 0.08,
+                "analytical": 0.06,
+                "leadership": 0.03,
+                "research": 0.01
+            },
+            "riasec": [
+                "A",
+                "E"
+            ],
+            "suggested_next_skills": [
+                "Sustainable Fashion",
+                "3D Fashion Software (CLO3D)",
+                "Brand Strategy",
+                "Social Media Aesthetics",
+                "Textile Sustainability"
+            ],
+            "work_environment": "Fashion houses, textile mills, garment export firms, own label / D2C brand",
+            "daily_tasks": [
+                "Sketch garment concepts",
+                "Source fabrics and trims",
+                "Oversee sampling and production",
+                "Present collections to buyers or clients"
+            ]
+        },
+        {
+            "id": "journalist",
+            "name": "Journalist / Media Professional",
+            "emoji": "📰",
+            "category": "Media & Communication",
+            "stream": "Humanities – Journalism & Mass Communication",
+            "description": "Report, investigate, and communicate stories that inform the public — across print, digital, broadcast, or podcasting.",
+            "required_skills": [
+                "Investigative Reporting",
+                "Writing & Editing",
+                "Digital Content Creation",
+                "Video / Audio Production",
+                "Source Building"
+            ],
+            "soft_skills": [
+                "Curiosity",
+                "Integrity",
+                "Communication",
+                "Resilience",
+                "Adaptability"
+            ],
+            "education_path": [
+                "Class 11–12 → Any stream (Humanities common)",
+                "BA / B.Sc → Journalism & Mass Communication",
+                "PG Diploma → Journalism from IIMC / MCRC Jamia",
+                "Beat expertise (tech/economy/politics) adds enormous value"
+            ],
+            "top_colleges_india": [
+                "IIMC Delhi",
+                "MCRC Jamia Millia",
+                "Symbiosis Institute",
+                "Xavier's Mumbai",
+                "Manipal Institute of Communication"
+            ],
+            "entrance_exams": [
+                "IIMC Entrance",
+                "University JMC Entrance Exams"
+            ],
+            "avg_salary_inr": {
+                "entry": "3–6 LPA",
+                "mid": "8–20 LPA",
+                "senior": "20–80 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "35K",
+                "mid": "70K",
+                "senior": "200K+"
+            },
+            "future_demand": "Moderate",
+            "demand_growth_pct": 15,
+            "global_scope": true,
+            "job_market_note": "Digital media transformation is creating demand for multimedia journalists. Data journalism and investigative reporting are premium niches.",
+            "profile_weights": {
+                "social": 0.30,
+                "creative": 0.28,
+                "research": 0.20,
+                "analytical": 0.12,
+                "leadership": 0.06,
+                "business": 0.02,
+                "technical": 0.02
+            },
+            "riasec": [
+                "A",
+                "S",
+                "I"
+            ],
+            "suggested_next_skills": [
+                "Data Journalism",
+                "Video Production",
+                "SEO / Digital Analytics",
+                "Podcast Production",
+                "Fact-Checking Methodology"
+            ],
+            "work_environment": "Newsrooms, digital media startups, freelance, broadcasting studios",
+            "daily_tasks": [
+                "Research and investigate stories",
+                "Interview sources",
+                "Write/edit copy or script",
+                "Publish or broadcast content"
+            ]
+        },
+        {
+            "id": "environmental_scientist",
+            "name": "Environmental Scientist",
+            "emoji": "🌿",
+            "category": "Science & Environment",
+            "stream": "Science – Environmental Studies",
+            "description": "Study the natural environment and develop solutions to environmental problems — climate change, pollution, biodiversity, and sustainability.",
+            "required_skills": [
+                "Environmental Chemistry",
+                "GIS / Remote Sensing",
+                "Environmental Impact Assessment",
+                "Data Analysis",
+                "Policy Knowledge"
+            ],
+            "soft_skills": [
+                "Systems Thinking",
+                "Passion for Nature",
+                "Communication",
+                "Persistence",
+                "Interdisciplinary Collaboration"
+            ],
+            "education_path": [
+                "Class 11–12 → Science (PCB or PCM)",
+                "B.Sc / B.Tech → Environmental Science or Environmental Engineering",
+                "M.Sc / M.Tech → Environmental Science / Management",
+                "Ph.D for research and academic positions"
+            ],
+            "top_colleges_india": [
+                "IIT Delhi (CES)",
+                "JNU",
+                "TERI University",
+                "University of Delhi",
+                "IISc Bangalore"
+            ],
+            "entrance_exams": [
+                "JEE Main",
+                "CUCET",
+                "University Entrance Tests",
+                "GATE (Environmental Engineering)"
+            ],
+            "avg_salary_inr": {
+                "entry": "4–8 LPA",
+                "mid": "10–22 LPA",
+                "senior": "22–50 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "50K",
+                "mid": "80K",
+                "senior": "130K+"
+            },
+            "future_demand": "High",
+            "demand_growth_pct": 38,
+            "global_scope": true,
+            "job_market_note": "Climate crisis and ESG regulation are driving explosive demand. Sustainability consulting and carbon markets are booming sectors.",
+            "profile_weights": {
+                "research": 0.30,
+                "analytical": 0.25,
+                "social": 0.18,
+                "technical": 0.14,
+                "creative": 0.08,
+                "leadership": 0.04,
+                "business": 0.01
+            },
+            "riasec": [
+                "I",
+                "R",
+                "S"
+            ],
+            "suggested_next_skills": [
+                "Life Cycle Assessment (LCA)",
+                "Carbon Accounting",
+                "ESG Reporting",
+                "Climate Modelling",
+                "Environmental Law"
+            ],
+            "work_environment": "Government agencies, NGOs, consulting firms, research institutions",
+            "daily_tasks": [
+                "Collect and analyse environmental samples",
+                "Conduct EIAs for projects",
+                "Model pollution dispersion",
+                "Advise policy-makers on sustainability"
+            ]
+        },
+        {
+            "id": "teacher_educator",
+            "name": "Teacher / Academic Educator",
+            "emoji": "🏫",
+            "category": "Education",
+            "stream": "Any Stream – Education",
+            "description": "Educate, inspire, and empower the next generation in schools, colleges, or online platforms across any subject area.",
+            "required_skills": [
+                "Pedagogy",
+                "Subject Expertise",
+                "Curriculum Design",
+                "Classroom Management",
+                "EdTech Tools"
+            ],
+            "soft_skills": [
+                "Patience",
+                "Communication",
+                "Empathy",
+                "Passion for Learning",
+                "Creativity in Explanation"
+            ],
+            "education_path": [
+                "Class 11–12 → Any stream based on subject specialisation",
+                "B.Sc / BA / B.Tech → Relevant subject",
+                "B.Ed or M.Ed → Teacher training",
+                "NET/SLET → For college/university lectureship"
+            ],
+            "top_colleges_india": [
+                "RIEs (NCERT)",
+                "Jamia Millia",
+                "Delhi University B.Ed",
+                "TISS Education programmes"
+            ],
+            "entrance_exams": [
+                "B.Ed CET",
+                "CTET / STET",
+                "UGC-NET / SLET"
+            ],
+            "avg_salary_inr": {
+                "entry": "3–6 LPA",
+                "mid": "6–15 LPA",
+                "senior": "15–35 LPA"
+            },
+            "avg_salary_global_usd": {
+                "entry": "35K",
+                "mid": "60K",
+                "senior": "100K+"
+            },
+            "future_demand": "Moderate-High",
+            "demand_growth_pct": 20,
+            "global_scope": true,
+            "job_market_note": "India's EdTech boom and NEP 2020 reforms are creating significant demand for quality educators both offline and online.",
+            "profile_weights": {
+                "social": 0.36,
+                "creative": 0.20,
+                "research": 0.18,
+                "analytical": 0.12,
+                "leadership": 0.08,
+                "technical": 0.04,
+                "business": 0.02
+            },
+            "riasec": [
+                "S",
+                "A",
+                "I"
+            ],
+            "suggested_next_skills": [
+                "EdTech Platforms",
+                "Online Course Creation",
+                "Learning Design",
+                "Assessment Design",
+                "Inclusive Education"
+            ],
+            "work_environment": "Schools, colleges, EdTech platforms, coaching institutes, online tutoring",
+            "daily_tasks": [
+                "Plan and deliver lessons",
+                "Assess student progress",
+                "Create learning materials",
+                "Mentor and counsel students"
+            ]
+        }
+    ]
+}

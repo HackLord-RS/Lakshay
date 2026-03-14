@@ -1,0 +1,3035 @@
+{
+    "_meta": {
+        "version": "3.0",
+        "framework": "RIASEC Holland Codes (1973) + Big Five Personality Adaptation + Situational Judgment Tests",
+        "scoring_dimensions": [
+            "analytical",
+            "technical",
+            "creative",
+            "social",
+            "leadership",
+            "business",
+            "research"
+        ],
+        "question_types": {
+            "interest_mapping": "Reveals genuine passion areas (Holland, 1973)",
+            "aptitude_check": "Measures domain-specific cognitive tendencies",
+            "personality_trait": "Big Five openness/conscientiousness markers adapted for career counselling",
+            "situational_judgment": "Behavioural prediction (Schmidt & Hunter, 1998); weighted 1.25x",
+            "cognitive_style": "Learning modality and reasoning style (Kolb, 1984)"
+        },
+        "section_weights": {
+            "situational_judgment": 1.25,
+            "personality_trait": 1.15,
+            "aptitude_check": 1.10,
+            "interest_mapping": 1.00,
+            "cognitive_style": 1.05
+        },
+        "answer_key": "A=0, B=1, C=2, D=3 (0-indexed for frontend convenience)"
+    },
+    "school_student": {
+        "label": "School Student (Class 9–12)",
+        "description": "15 RIASEC-grounded questions covering interest, aptitude, personality, cognition, and situational judgment.",
+        "total": 15,
+        "sections": [
+            "Interest & Passion",
+            "Academic Aptitude",
+            "Cognitive Style",
+            "Personality & Values",
+            "Situational Judgment"
+        ],
+        "questions": [
+            {
+                "id": "ss_01",
+                "section": "Interest & Passion",
+                "type": "interest_mapping",
+                "riasec_primary": "RIAS",
+                "question": "When you have completely free time on a weekend, which activity pulls you in most naturally and consistently?",
+                "hint": "Think about what you do without being told to.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Taking apart a gadget or building something mechanical / electronic / digital",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 15,
+                            "creative": 10,
+                            "research": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Reading about discoveries, watching science documentaries, or running small experiments",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 20,
+                            "technical": 5,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Drawing, writing stories, composing music, designing something, or any creative act",
+                        "scores": {
+                            "creative": 30,
+                            "social": 10,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 0,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Organising events, playing team sports, leading a group, or doing community work",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 15,
+                            "business": 10,
+                            "creative": 5,
+                            "analytical": 0,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_02",
+                "section": "Academic Aptitude",
+                "type": "aptitude_check",
+                "riasec_primary": "IRA",
+                "question": "Which of these school situations makes you feel most alive, engaged, and genuinely confident?",
+                "hint": "Not just 'what you score highest in' — what you actually enjoy.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Cracking a complex Maths or Physics problem that took multiple steps and real effort",
+                        "scores": {
+                            "analytical": 28,
+                            "technical": 12,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Running a Biology experiment or understanding how the human body or ecosystem works",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 15,
+                            "technical": 10,
+                            "social": 5,
+                            "creative": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Writing an essay, making a class presentation, or winning a debate with your arguments",
+                        "scores": {
+                            "social": 20,
+                            "creative": 20,
+                            "leadership": 10,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Understanding how a business works, analysing markets, or solving an economics case",
+                        "scores": {
+                            "business": 25,
+                            "analytical": 20,
+                            "leadership": 10,
+                            "social": 5,
+                            "creative": 0,
+                            "technical": 0,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_03",
+                "section": "Cognitive Style",
+                "type": "cognitive_style",
+                "riasec_primary": "IRC",
+                "question": "When you face a brand-new challenging problem you have never seen before, what is your very first natural instinct?",
+                "hint": "Be honest — what do you actually do, not what you think you should do.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Break it into logical steps, work from first principles, solve it systematically alone",
+                        "scores": {
+                            "analytical": 28,
+                            "technical": 12,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Hunt for patterns, analogies, or connections to something I have already solved before",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 20,
+                            "creative": 10,
+                            "technical": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Brainstorm unconventional or imaginative solutions — think outside the obvious approach",
+                        "scores": {
+                            "creative": 28,
+                            "analytical": 10,
+                            "research": 10,
+                            "social": 5,
+                            "leadership": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Immediately gather input from others, discuss it collaboratively, and build on their ideas",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 15,
+                            "business": 10,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_04",
+                "section": "Personality & Values",
+                "type": "personality_trait",
+                "riasec_primary": "SRIE",
+                "question": "In any group project or team activity, what role do you naturally and almost automatically fall into?",
+                "hint": "What role do others assign you — or you quietly take?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "The researcher — gathering facts, verifying accuracy, making sure the content is deep and correct",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 20,
+                            "technical": 10,
+                            "social": 5,
+                            "creative": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "The designer or presenter — making it visually compelling and persuasive for the audience",
+                        "scores": {
+                            "creative": 28,
+                            "social": 15,
+                            "leadership": 10,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "The coordinator — setting timelines, dividing tasks, keeping everyone on track and motivated",
+                        "scores": {
+                            "leadership": 28,
+                            "social": 20,
+                            "business": 12,
+                            "analytical": 0,
+                            "creative": 0,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "The technical builder — writing the code, building the prototype, or solving the hard technical piece",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 20,
+                            "research": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_05",
+                "section": "Interest & Passion",
+                "type": "interest_mapping",
+                "riasec_primary": "RISA",
+                "question": "If you could shadow any professional for one full week to experience their day-to-day life, who would you choose without hesitation?",
+                "hint": "Choose who genuinely excites you — ignore salary or status.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "A scientist or engineer building AI systems, space technology, or cutting-edge robotics",
+                        "scores": {
+                            "technical": 20,
+                            "research": 20,
+                            "analytical": 15,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "A surgeon or doctor making life-or-death clinical decisions and healing patients",
+                        "scores": {
+                            "social": 20,
+                            "analytical": 20,
+                            "research": 15,
+                            "technical": 5,
+                            "creative": 0,
+                            "leadership": 10,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "A startup founder or business leader building a company from zero to scale",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 20,
+                            "creative": 10,
+                            "social": 10,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "An artist, filmmaker, game designer, or architect creating experiences for the world",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "analytical": 5,
+                            "technical": 5,
+                            "leadership": 5,
+                            "business": 5,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_06",
+                "section": "Academic Aptitude",
+                "type": "aptitude_check",
+                "riasec_primary": "IRC",
+                "question": "How do you genuinely feel when you encounter numbers, data tables, statistics, or mathematical proofs?",
+                "hint": "Be honest — not what sounds impressive.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Genuinely excited — I enjoy spotting patterns, calculating, and drawing logical conclusions from data",
+                        "scores": {
+                            "analytical": 30,
+                            "technical": 15,
+                            "research": 15,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Comfortable — I can work with data fine, especially when it tells an interesting story or solves a real problem",
+                        "scores": {
+                            "analytical": 15,
+                            "business": 15,
+                            "research": 10,
+                            "technical": 10,
+                            "social": 5,
+                            "creative": 5,
+                            "leadership": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Neutral — I prefer working with people, words, or ideas; numbers are a tool, not a passion",
+                        "scores": {
+                            "social": 20,
+                            "creative": 15,
+                            "leadership": 10,
+                            "analytical": 0,
+                            "research": 5,
+                            "technical": 0,
+                            "business": 10
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Challenged — I struggle with numbers and actively prefer subjects that rely on language or creativity",
+                        "scores": {
+                            "creative": 22,
+                            "social": 15,
+                            "research": 10,
+                            "analytical": 0,
+                            "technical": 0,
+                            "leadership": 10,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_07",
+                "section": "Personality & Values",
+                "type": "personality_trait",
+                "riasec_primary": "EIRS",
+                "question": "What motivates you the most deeply when you think about your life's work — the career you want?",
+                "hint": "Choose the one that feels most genuine, not most admirable.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Solving problems that most people can't solve — being the technical or scientific expert people rely on",
+                        "scores": {
+                            "analytical": 25,
+                            "technical": 20,
+                            "research": 15,
+                            "social": 0,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Making a real difference in people's lives — health, education, justice, or community impact",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 15,
+                            "research": 10,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Building wealth and independence — growing a business or achieving financial success on my own terms",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 20,
+                            "analytical": 10,
+                            "social": 7,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creating something lasting — a work of art, a product, a scientific body of knowledge, or a company",
+                        "scores": {
+                            "creative": 25,
+                            "technical": 15,
+                            "research": 15,
+                            "leadership": 10,
+                            "social": 5,
+                            "analytical": 5,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_08",
+                "section": "Situational Judgment",
+                "type": "situational_judgment",
+                "riasec_primary": "EIRS",
+                "question": "Your school receives an unexpected fund to build one major new facility. You are on the student decision committee. Which project do you champion — and why?",
+                "hint": "Pick what genuinely excites you, not what sounds most responsible.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "A fully equipped tech lab with AI, robotics, 3D printers, and advanced computing for student projects",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 20,
+                            "research": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "A community outreach centre connecting the school to underprivileged neighbourhoods and social causes",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 15,
+                            "creative": 5,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "A student startup incubation lab where students can pitch and build real small businesses with mentors",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 18,
+                            "creative": 12,
+                            "social": 7,
+                            "analytical": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "A world-class creative arts centre with music studios, film editing suites, design labs, and a stage",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "leadership": 10,
+                            "analytical": 0,
+                            "technical": 5,
+                            "research": 0,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_09",
+                "section": "Personality & Values",
+                "type": "personality_trait",
+                "riasec_primary": "IRSE",
+                "question": "How do the people who know you best — friends, family, teachers — most consistently describe you?",
+                "hint": "What do they say about you, not what you aspire to be.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Intensely curious and analytical — always asking 'why' and diving deeper than anyone else",
+                        "scores": {
+                            "analytical": 25,
+                            "research": 20,
+                            "technical": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Warm and empathetic — people naturally come to me when they need support or honest advice",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 15,
+                            "creative": 5,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Ambitious and driven — I set big goals and relentlessly work toward them, inspiring others along the way",
+                        "scores": {
+                            "leadership": 25,
+                            "business": 20,
+                            "analytical": 10,
+                            "social": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creative and unconventional — I see things differently and consistently bring fresh, original ideas",
+                        "scores": {
+                            "creative": 28,
+                            "social": 10,
+                            "analytical": 10,
+                            "research": 10,
+                            "leadership": 5,
+                            "technical": 5,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_10",
+                "section": "Interest & Passion",
+                "type": "interest_mapping",
+                "riasec_primary": "RSIA",
+                "question": "Which type of content do you voluntarily watch, read, or listen to during your own time — without anyone asking?",
+                "hint": "Think about your actual YouTube/podcast/book habits.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Science, tech, engineering, space, programming tutorials, or AI / maths content",
+                        "scores": {
+                            "technical": 20,
+                            "research": 20,
+                            "analytical": 20,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Business stories, entrepreneur interviews, stock market / economics / startup content",
+                        "scores": {
+                            "business": 28,
+                            "analytical": 15,
+                            "leadership": 15,
+                            "social": 7,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Art, music, films, creative writing, design inspiration, cultural or philosophical content",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "analytical": 5,
+                            "research": 5,
+                            "technical": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Social issues, psychology, history, true crime, or content about people and society",
+                        "scores": {
+                            "social": 25,
+                            "research": 15,
+                            "analytical": 15,
+                            "leadership": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_11",
+                "section": "Cognitive Style",
+                "type": "cognitive_style",
+                "riasec_primary": "IACS",
+                "question": "When you need to learn something completely new and complex, which approach feels most natural and effective for you?",
+                "hint": "Not what teachers tell you to do — what actually works for your brain.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Read systematically from first principles — fully understand the theory before touching practice",
+                        "scores": {
+                            "analytical": 25,
+                            "research": 25,
+                            "technical": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Jump in hands-on immediately — experiment, make mistakes, reverse-engineer how it works",
+                        "scores": {
+                            "technical": 25,
+                            "creative": 15,
+                            "analytical": 15,
+                            "research": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Find a study group or mentor — I learn fastest by discussing, asking questions, and teaching others",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 12,
+                            "analytical": 10,
+                            "creative": 5,
+                            "research": 5,
+                            "technical": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Create visual summaries, mind maps, diagrams, or teach the concept to an imaginary student",
+                        "scores": {
+                            "creative": 20,
+                            "analytical": 20,
+                            "social": 15,
+                            "research": 10,
+                            "technical": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_12",
+                "section": "Situational Judgment",
+                "type": "situational_judgment",
+                "riasec_primary": "EIRS",
+                "question": "You discover that your city's public bus routing system is deeply inefficient — causing thousands of people to lose hours daily. How do you personally respond?",
+                "hint": "Be honest about your instinct, not what sounds most civic-minded.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "I'd build a technical solution — write an algorithm or app that optimises the routes and submit it to authorities",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 22,
+                            "creative": 10,
+                            "research": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "I'd research the problem rigorously, document evidence with data, and publish a detailed analysis report",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 22,
+                            "social": 10,
+                            "technical": 5,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "I'd mobilise the community — start a petition, organise affected citizens, and advocate loudly to decision-makers",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 22,
+                            "business": 10,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I'd frame it as a business opportunity — research the market, pitch a mobility startup, and seek funding",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 20,
+                            "creative": 12,
+                            "analytical": 10,
+                            "social": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_13",
+                "section": "Academic Aptitude",
+                "type": "aptitude_check",
+                "riasec_primary": "IASE",
+                "question": "Which future academic path makes your heart race with genuine excitement and feels most authentically right for who you are?",
+                "hint": "Ignore parental pressure or peer comparison for a moment.",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "IIT / Engineering / Computer Science — becoming a world-class technical expert building tomorrow's systems",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 22,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "AIIMS / Medical / Biotech — becoming a healer, researcher, or innovator in life sciences",
+                        "scores": {
+                            "social": 20,
+                            "research": 20,
+                            "analytical": 18,
+                            "technical": 5,
+                            "creative": 0,
+                            "leadership": 10,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "IIM / Business / Economics — understanding markets, building companies, creating financial independence",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 20,
+                            "analytical": 12,
+                            "social": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "NID / Architecture / Fine Arts / Film — creating meaningful, beautiful, or culturally impactful work",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "research": 10,
+                            "analytical": 5,
+                            "technical": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_14",
+                "section": "Personality & Values",
+                "type": "personality_trait",
+                "riasec_primary": "EIRS",
+                "question": "Ten years from now — at the peak of your career — what kind of life, work, and impact do you most deeply want?",
+                "hint": "This is not about what sounds impressive. What actually makes you come alive?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Recognised as a top domain expert — the person who knows more than anyone and breaks new ground",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 25,
+                            "technical": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Running an organisation or leading a movement — visible, influential, making systemic impact",
+                        "scores": {
+                            "leadership": 28,
+                            "business": 22,
+                            "social": 15,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Famous for creating — a body of work in art, design, writing, or technology that people remember",
+                        "scores": {
+                            "creative": 28,
+                            "technical": 12,
+                            "research": 12,
+                            "social": 8,
+                            "analytical": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Improving lives at scale — healthcare, education, policy, or social systems that genuinely help millions",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 12,
+                            "analytical": 7,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ss_15",
+                "section": "Situational Judgment",
+                "type": "situational_judgment",
+                "riasec_primary": "RIES",
+                "question": "You have an entire summer with no obligations, no exams, and no family pressure. You can spend it any way you truly want. What do you actually do?",
+                "hint": "What would your ideal self do — given full freedom and no judgement?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Build a complete technical project from scratch — an app, website, robot, or experiment — that solves a real problem",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 18,
+                            "creative": 12,
+                            "research": 7,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Intern or volunteer in a hospital, NGO, school, or community organisation — work that directly helps people",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 15,
+                            "research": 12,
+                            "analytical": 5,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Launch a small real business or side project — test a product, make sales, learn how the market actually works",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 20,
+                            "analytical": 12,
+                            "creative": 10,
+                            "social": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Deep-dive into subjects I'm genuinely obsessed with — read voraciously, take online courses, expand my mind",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 20,
+                            "creative": 15,
+                            "technical": 10,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "parent": {
+        "label": "Parent of School Student",
+        "description": "12 questions observing child behaviour to help parents guide rather than project career choices.",
+        "total": 12,
+        "questions": [
+            {
+                "id": "pa_01",
+                "section": "Child Observation",
+                "type": "interest_mapping",
+                "question": "When your child plays or spends free time at home, which activity absorbs them most deeply and consistently — without any prompting?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Building, fixing, coding, or engineering things — Lego, electronics, games, or computers",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 15,
+                            "creative": 10,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Drawing, writing stories, singing, dancing, or any form of creative / artistic expression",
+                        "scores": {
+                            "creative": 28,
+                            "social": 12,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Reading books, watching educational content, asking deep questions about how the world works",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 22,
+                            "technical": 10,
+                            "creative": 3,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Organising friends, leading games, planning activities, and naturally taking charge of situations",
+                        "scores": {
+                            "leadership": 25,
+                            "social": 22,
+                            "business": 10,
+                            "analytical": 3,
+                            "creative": 0,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_02",
+                "section": "Academic Behaviour",
+                "type": "aptitude_check",
+                "question": "In which school subjects does your child consistently score well AND show genuine enjoyment — not just compliance?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Mathematics and Science — gets high marks and seems energised, curious, and enthusiastic in these",
+                        "scores": {
+                            "analytical": 28,
+                            "technical": 18,
+                            "research": 14,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Languages, History, and Social Studies — strong with words and fascinated by people and society",
+                        "scores": {
+                            "social": 20,
+                            "creative": 20,
+                            "research": 15,
+                            "analytical": 5,
+                            "leadership": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Commerce and Economics — interested in how businesses, money, and markets work",
+                        "scores": {
+                            "business": 28,
+                            "analytical": 18,
+                            "leadership": 12,
+                            "social": 7,
+                            "creative": 0,
+                            "technical": 0,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Art, Music, or Computer Science — drawn to creative expression and/or hands-on technical work",
+                        "scores": {
+                            "creative": 22,
+                            "technical": 18,
+                            "analytical": 10,
+                            "social": 5,
+                            "research": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_03",
+                "section": "Problem-Solving Behaviour",
+                "type": "personality_trait",
+                "question": "When your child faces a difficult challenge or obstacle, what is their natural, characteristic response?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Persists quietly and independently — works methodically through it alone without giving up",
+                        "scores": {
+                            "analytical": 25,
+                            "technical": 15,
+                            "research": 20,
+                            "social": 0,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Gets creative — tries unconventional approaches, improvises, and thinks outside standard methods",
+                        "scores": {
+                            "creative": 25,
+                            "analytical": 15,
+                            "social": 10,
+                            "technical": 10,
+                            "research": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Mobilises others — gathers friends or family, discusses, and works collaboratively toward a solution",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 20,
+                            "business": 10,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Strategises — makes a clear plan, identifies resources needed, and executes with focused determination",
+                        "scores": {
+                            "leadership": 25,
+                            "analytical": 20,
+                            "business": 15,
+                            "technical": 5,
+                            "social": 5,
+                            "creative": 0,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_04",
+                "section": "Strongest Natural Talent",
+                "type": "personality_trait",
+                "question": "If you had to honestly identify your child's single strongest natural talent — what you observe consistently — what would it be?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Exceptional logical and mathematical reasoning — they solve hard problems intuitively",
+                        "scores": {
+                            "analytical": 30,
+                            "technical": 20,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Outstanding empathy and social intelligence — they understand people in ways that surprise adults",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 15,
+                            "creative": 10,
+                            "analytical": 5,
+                            "research": 0,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Natural leadership — they command respect, motivate others, and take charge without being asked",
+                        "scores": {
+                            "leadership": 28,
+                            "social": 18,
+                            "business": 14,
+                            "analytical": 5,
+                            "creative": 0,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Vivid creativity and imagination — they produce original ideas and work that genuinely surprises everyone",
+                        "scores": {
+                            "creative": 30,
+                            "social": 10,
+                            "technical": 8,
+                            "analytical": 7,
+                            "research": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_05",
+                "section": "Career Perception",
+                "type": "situational_judgment",
+                "question": "When your child talks about their future, which type of aspiration comes up most authentically and repeatedly?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Becoming a scientist, engineer, doctor, or expert who solves important technical or medical problems",
+                        "scores": {
+                            "technical": 20,
+                            "analytical": 20,
+                            "research": 15,
+                            "social": 10,
+                            "creative": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Starting a business, becoming financially independent, or building something of their own",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 20,
+                            "creative": 12,
+                            "social": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Working in a creative field — art, film, design, music, writing, or architecture",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "leadership": 5,
+                            "analytical": 5,
+                            "research": 5,
+                            "technical": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Helping people directly — becoming a doctor, teacher, counsellor, social worker, or government officer",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 15,
+                            "research": 12,
+                            "analytical": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_06",
+                "section": "Financial Context",
+                "type": "situational_judgment",
+                "question": "As a parent, which factor is most critical for you when considering your child's career path?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Job security and stable income — a clear, reliable professional path with predictable progression",
+                        "scores": {
+                            "business": 20,
+                            "analytical": 15,
+                            "technical": 15,
+                            "social": 10,
+                            "research": 10,
+                            "leadership": 5,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "High earning potential — careers with the best long-term income and financial independence prospects",
+                        "scores": {
+                            "business": 25,
+                            "analytical": 20,
+                            "leadership": 15,
+                            "technical": 10,
+                            "social": 5,
+                            "research": 5,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Passion and fulfilment — my child doing work they genuinely love, even if it takes longer to pay off",
+                        "scores": {
+                            "creative": 20,
+                            "social": 18,
+                            "research": 15,
+                            "analytical": 10,
+                            "technical": 8,
+                            "leadership": 8,
+                            "business": 6
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Social prestige and recognition — a career that earns respect and status in our family and community",
+                        "scores": {
+                            "social": 20,
+                            "leadership": 20,
+                            "business": 15,
+                            "analytical": 15,
+                            "creative": 5,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_07",
+                "section": "Learning Style Observation",
+                "type": "cognitive_style",
+                "question": "How does your child typically approach homework, studying, or learning new things at home?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Self-directed and systematic — researches deeply, makes notes, and insists on fully understanding before moving on",
+                        "scores": {
+                            "analytical": 25,
+                            "research": 25,
+                            "technical": 8,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Hands-on and experimental — prefers doing over reading, builds or tries things rather than studying theory",
+                        "scores": {
+                            "technical": 25,
+                            "creative": 15,
+                            "analytical": 15,
+                            "research": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Social learner — studies best with friends, asks many questions, and explains things to family members",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 12,
+                            "analytical": 10,
+                            "creative": 5,
+                            "research": 5,
+                            "technical": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creative processor — creates visual summaries, diagrams, or stories to internalise concepts",
+                        "scores": {
+                            "creative": 20,
+                            "analytical": 20,
+                            "social": 15,
+                            "research": 10,
+                            "technical": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_08",
+                "section": "Risk and Ambition",
+                "type": "personality_trait",
+                "question": "How would you describe your child's relationship with risk-taking and ambitious goals?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Bold risk-taker — excited by challenges, not afraid of failure, loves trying big bold ideas",
+                        "scores": {
+                            "leadership": 22,
+                            "business": 22,
+                            "creative": 15,
+                            "social": 8,
+                            "analytical": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Calculated — thinks carefully before acting, analyses pros/cons, takes calibrated well-researched risks",
+                        "scores": {
+                            "analytical": 25,
+                            "research": 20,
+                            "business": 15,
+                            "technical": 10,
+                            "social": 5,
+                            "leadership": 5,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Cautious — prefers stability and security, works best with clear structure and defined expectations",
+                        "scores": {
+                            "technical": 20,
+                            "analytical": 20,
+                            "research": 20,
+                            "social": 10,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Team-driven risk-taker — confident when supported by the right people around them",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 25,
+                            "business": 15,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_09",
+                "section": "Social & Leadership",
+                "type": "interest_mapping",
+                "question": "In social or extracurricular settings — school events, clubs, friends — what role does your child naturally take?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "The quiet expert — respected for deep knowledge, sought out for advice, prefers quality interactions",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 22,
+                            "technical": 10,
+                            "social": 8,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "The natural leader — initiates plans, organises people, energises the group, takes charge naturally",
+                        "scores": {
+                            "leadership": 28,
+                            "social": 20,
+                            "business": 12,
+                            "analytical": 5,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "The creative spark — brings original ideas, entertains, designs, or creates things the group appreciates",
+                        "scores": {
+                            "creative": 28,
+                            "social": 18,
+                            "leadership": 8,
+                            "analytical": 5,
+                            "research": 5,
+                            "technical": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "The helper and mediator — supports others, resolves conflicts, ensures everyone feels included",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 15,
+                            "creative": 8,
+                            "analytical": 5,
+                            "research": 5,
+                            "technical": 0,
+                            "business": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_10",
+                "section": "Subject Depth",
+                "type": "aptitude_check",
+                "question": "Which academic subject does your child go beyond the textbook in — reading extra books, watching videos, or practising voluntarily?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Mathematics, Physics, Computer Science, or Chemistry — the hard sciences and technical subjects",
+                        "scores": {
+                            "analytical": 28,
+                            "technical": 22,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Biology, Psychology, Sociology, or Health — subjects about living systems, people, and well-being",
+                        "scores": {
+                            "research": 22,
+                            "social": 18,
+                            "analytical": 16,
+                            "technical": 5,
+                            "creative": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "History, Political Science, Economics, Law, or Current Affairs — society, power, and governance",
+                        "scores": {
+                            "analytical": 18,
+                            "social": 18,
+                            "research": 18,
+                            "leadership": 12,
+                            "business": 10,
+                            "creative": 5,
+                            "technical": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Art, Literature, Music, Film, or Design — culture, expression, and aesthetic creation",
+                        "scores": {
+                            "creative": 30,
+                            "social": 15,
+                            "research": 8,
+                            "analytical": 5,
+                            "technical": 5,
+                            "leadership": 5,
+                            "business": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_11",
+                "section": "Interpersonal Style",
+                "type": "personality_trait",
+                "question": "When your child disagrees with a teacher, friend, or authority figure, how do they typically handle it?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Researches and comes back with evidence — calmly argues with facts, data, or logical reasoning",
+                        "scores": {
+                            "analytical": 28,
+                            "research": 22,
+                            "technical": 8,
+                            "social": 5,
+                            "creative": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Voices it confidently and directly — advocates for their view without being aggressive",
+                        "scores": {
+                            "leadership": 25,
+                            "social": 20,
+                            "analytical": 12,
+                            "business": 8,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Seeks compromise — tries to understand the other side and find a middle ground everyone accepts",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "analytical": 12,
+                            "creative": 8,
+                            "business": 8,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Finds a creative workaround — doesn't confront directly but innovates around the constraint",
+                        "scores": {
+                            "creative": 25,
+                            "analytical": 18,
+                            "technical": 12,
+                            "social": 10,
+                            "research": 8,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "pa_12",
+                "section": "Values & Purpose",
+                "type": "situational_judgment",
+                "question": "If your child could make any difference in the world — completely unbound by salary or practicality — what would they want their life's work to be about?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Advancing science and technology to solve humanity's biggest problems — disease, energy, climate, intelligence",
+                        "scores": {
+                            "research": 25,
+                            "technical": 22,
+                            "analytical": 18,
+                            "creative": 5,
+                            "social": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Building businesses or systems that create jobs, prosperity, and economic opportunity for many people",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 22,
+                            "analytical": 12,
+                            "social": 12,
+                            "creative": 5,
+                            "technical": 2,
+                            "research": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Creating art, culture, or content that makes people feel understood, inspired, or less alone",
+                        "scores": {
+                            "creative": 28,
+                            "social": 22,
+                            "leadership": 8,
+                            "analytical": 5,
+                            "research": 5,
+                            "technical": 5,
+                            "business": 2
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Improving human welfare at scale — better healthcare, education, justice, or community resilience",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "analytical": 12,
+                            "creative": 5,
+                            "technical": 2,
+                            "business": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "college_student": {
+        "label": "College Student (Undergraduate)",
+        "description": "12 questions for undergraduates choosing specialisations, postgraduate paths, or career pivots.",
+        "total": 12,
+        "questions": [
+            {
+                "id": "cu_01",
+                "section": "Academic Engagement",
+                "type": "interest_mapping",
+                "question": "Looking honestly at your undergraduate studies so far, which aspect has created the deepest, most genuine engagement for you?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technical coursework, labs, and building actual systems, products, or experiments",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 20,
+                            "research": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Research papers, case studies, theoretical models, and understanding mechanisms at depth",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 22,
+                            "technical": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Group projects, presentations, networking, leadership roles, and the human dynamics of college",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 15,
+                            "creative": 10,
+                            "business": 10,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Electives in entrepreneurship, design, innovation, policy, or interdisciplinary cross-domain subjects",
+                        "scores": {
+                            "creative": 20,
+                            "business": 20,
+                            "leadership": 15,
+                            "social": 10,
+                            "analytical": 10,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_02",
+                "section": "Risk Orientation",
+                "type": "personality_trait",
+                "question": "What is your honest relationship with risk, uncertainty, and ambiguity in your professional choices?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "I embrace risk energetically — uncertainty excites me and I am comfortable with ambiguity and changing plans",
+                        "scores": {
+                            "leadership": 20,
+                            "business": 22,
+                            "creative": 15,
+                            "social": 10,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "I take calculated risks — I move after thorough analysis and when the evidence strongly supports it",
+                        "scores": {
+                            "analytical": 25,
+                            "research": 20,
+                            "business": 15,
+                            "technical": 10,
+                            "social": 5,
+                            "leadership": 5,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "I prefer structured, predictable environments — I do my best work with clear roles and defined expectations",
+                        "scores": {
+                            "technical": 20,
+                            "analytical": 20,
+                            "research": 20,
+                            "social": 10,
+                            "creative": 5,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I manage risk through people — the right team gives me the confidence to make bold moves",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 25,
+                            "business": 15,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_03",
+                "section": "Career Vision",
+                "type": "situational_judgment",
+                "question": "Which professional scenario, when you imagine it vividly, makes you most excited about your life 5 years from now?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "A leading technical or research expert — published, respected in my field, solving problems nobody else can",
+                        "scores": {
+                            "technical": 25,
+                            "research": 22,
+                            "analytical": 18,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Running my own venture — a startup, consultancy, or creative business I have built from the ground up",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 22,
+                            "creative": 12,
+                            "social": 8,
+                            "analytical": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "In a high-impact social role — policy, education, healthcare, diplomacy, or non-profit leadership",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 20,
+                            "research": 12,
+                            "analytical": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "A senior role in a high-growth company — VP Product, VP Strategy, or partner at a top firm",
+                        "scores": {
+                            "business": 20,
+                            "analytical": 20,
+                            "leadership": 20,
+                            "social": 10,
+                            "technical": 10,
+                            "creative": 0,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_04",
+                "section": "Work Style",
+                "type": "cognitive_style",
+                "question": "How do you work most effectively and produce your best output?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Solo, deep focus — give me a hard problem, full autonomy, and undisturbed time to solve it completely",
+                        "scores": {
+                            "analytical": 25,
+                            "technical": 20,
+                            "research": 20,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Collaborative energy — I think and create best when bouncing ideas with smart, motivated people",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 20,
+                            "creative": 15,
+                            "business": 10,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Structured process — clear brief, defined milestones, regular check-ins, systematic execution",
+                        "scores": {
+                            "analytical": 22,
+                            "business": 18,
+                            "technical": 15,
+                            "leadership": 12,
+                            "social": 8,
+                            "research": 8,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creative exploration — open-ended briefs with freedom to experiment, iterate, and discover",
+                        "scores": {
+                            "creative": 28,
+                            "research": 18,
+                            "analytical": 12,
+                            "social": 10,
+                            "technical": 8,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_05",
+                "section": "Impact Motivation",
+                "type": "personality_trait",
+                "question": "At the deepest level — what kind of impact do you want your professional life to have on the world?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technological progress — advancing AI, engineering, medicine, or science that changes what is possible",
+                        "scores": {
+                            "technical": 25,
+                            "research": 22,
+                            "analytical": 18,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Economic empowerment — creating jobs, building businesses, generating prosperity for many people",
+                        "scores": {
+                            "business": 26,
+                            "leadership": 22,
+                            "analytical": 14,
+                            "social": 12,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 1
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Human welfare — improving healthcare, education, mental health, or access to justice for underserved people",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "analytical": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Cultural contribution — creating art, content, design, or stories that enrich how people experience life",
+                        "scores": {
+                            "creative": 28,
+                            "social": 18,
+                            "technical": 12,
+                            "leadership": 10,
+                            "research": 8,
+                            "analytical": 4,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_06",
+                "section": "Skill Confidence",
+                "type": "aptitude_check",
+                "question": "When you look at your peers honestly, in which area do you consistently outperform most of them without trying particularly hard?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technical and quantitative skills — coding, problem-solving, maths, data, or engineering",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 22,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Social and interpersonal skills — reading people, building relationships, persuading, and leading groups",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 22,
+                            "business": 10,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Creative and design thinking — generating original ideas, visual sense, storytelling, or aesthetic judgment",
+                        "scores": {
+                            "creative": 30,
+                            "social": 10,
+                            "analytical": 10,
+                            "technical": 8,
+                            "leadership": 5,
+                            "research": 5,
+                            "business": 2
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Research and synthesis — finding information, connecting dots, writing deeply, building arguments",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 24,
+                            "social": 5,
+                            "technical": 8,
+                            "creative": 8,
+                            "leadership": 3,
+                            "business": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_07",
+                "section": "Decision Making",
+                "type": "situational_judgment",
+                "question": "You receive two job offers simultaneously. Offer A: lower salary but cutting-edge research role at a top lab. Offer B: higher salary but routine corporate job. What do you do?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Take Offer A without hesitation — the intellectual growth and long-term expertise matter far more than immediate money",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 22,
+                            "technical": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Negotiate aggressively — try to get the best of both, counter both offers, and push hard on terms",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 22,
+                            "analytical": 15,
+                            "social": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Evaluate based on team and culture — which environment will help me grow, collaborate, and feel motivated",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 18,
+                            "analytical": 15,
+                            "creative": 10,
+                            "business": 10,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Consider a third path — use the time to launch something of my own rather than joining either",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 20,
+                            "creative": 18,
+                            "analytical": 12,
+                            "social": 8,
+                            "technical": 8,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_08",
+                "section": "Extracurricular Identity",
+                "type": "interest_mapping",
+                "question": "Outside of your core academics, what activity or initiative defines you — the thing you would be known for on campus?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technical side projects — hackathons, coding competitions, research papers, or open-source contributions",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 20,
+                            "research": 12,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Student government, organising events, leading clubs, or driving campus initiatives",
+                        "scores": {
+                            "leadership": 28,
+                            "social": 22,
+                            "business": 12,
+                            "creative": 5,
+                            "analytical": 0,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Creative expression — theatre, design, writing, music, film, or social media content",
+                        "scores": {
+                            "creative": 30,
+                            "social": 18,
+                            "technical": 5,
+                            "leadership": 5,
+                            "analytical": 5,
+                            "research": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Social impact projects — NGO work, mental health advocacy, environmental activism, or teaching underprivileged students",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "creative": 8,
+                            "analytical": 8,
+                            "technical": 0,
+                            "business": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_09",
+                "section": "Learning Depth",
+                "type": "cognitive_style",
+                "question": "When you are genuinely passionate about a topic, how do you go about learning it?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "I go extremely deep — read primary sources, research papers, original texts, and build mastery",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 24,
+                            "technical": 8,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "I learn by building — start a project, make mistakes, and figure out everything I need as I go",
+                        "scores": {
+                            "technical": 28,
+                            "creative": 16,
+                            "analytical": 14,
+                            "research": 5,
+                            "social": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "I learn socially — find communities, attend events, take courses with others, and discuss constantly",
+                        "scores": {
+                            "social": 26,
+                            "leadership": 14,
+                            "creative": 12,
+                            "analytical": 10,
+                            "research": 8,
+                            "technical": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I learn strategically — map what I need, find the best resource for each piece, optimise for outcomes",
+                        "scores": {
+                            "analytical": 22,
+                            "business": 20,
+                            "leadership": 16,
+                            "research": 14,
+                            "technical": 8,
+                            "social": 5,
+                            "creative": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_10",
+                "section": "Professional Identity",
+                "type": "personality_trait",
+                "question": "Which one-line professional identity feels most authentically you — the person you are becoming?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "'The expert who solves the hardest technical and analytical problems in the room'",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 25,
+                            "research": 15,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "'The leader who builds and mobilises teams to create ambitious things together'",
+                        "scores": {
+                            "leadership": 28,
+                            "social": 22,
+                            "business": 15,
+                            "analytical": 5,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "'The creator who makes things that move people, delight users, or change culture'",
+                        "scores": {
+                            "creative": 28,
+                            "social": 16,
+                            "technical": 12,
+                            "analytical": 10,
+                            "research": 8,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "'The strategist who identifies opportunities, allocates resources, and drives profitable growth'",
+                        "scores": {
+                            "business": 28,
+                            "analytical": 22,
+                            "leadership": 18,
+                            "social": 8,
+                            "technical": 5,
+                            "creative": 2,
+                            "research": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_11",
+                "section": "Graduate School Consideration",
+                "type": "aptitude_check",
+                "question": "How do you feel about the prospect of 2–5 more years of formal education (Master's, MBA, Ph.D) before entering or advancing in your career?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Eager — I want to go deeper intellectually and a research/academic path genuinely excites me",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 22,
+                            "technical": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Strategic — I'll do an MBA or specialised master's only if it demonstrably accelerates my career trajectory",
+                        "scores": {
+                            "business": 25,
+                            "analytical": 20,
+                            "leadership": 15,
+                            "social": 10,
+                            "technical": 5,
+                            "research": 5,
+                            "creative": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Undecided — I want to work first, gain real experience, and decide based on what gaps emerge",
+                        "scores": {
+                            "business": 18,
+                            "technical": 16,
+                            "analytical": 16,
+                            "social": 14,
+                            "leadership": 12,
+                            "creative": 8,
+                            "research": 8
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I'd rather skip formal education and dive straight into building something on my own",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 22,
+                            "creative": 18,
+                            "analytical": 10,
+                            "social": 8,
+                            "technical": 8,
+                            "research": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cu_12",
+                "section": "Values Alignment",
+                "type": "situational_judgment",
+                "question": "Your college friend group is debating the single most important thing to optimise for in a first job. What position do you champion?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Learning velocity — find the place where you will grow the fastest, even if the pay is low",
+                        "scores": {
+                            "research": 22,
+                            "analytical": 20,
+                            "technical": 18,
+                            "creative": 8,
+                            "social": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Compensation — maximise salary early because compounding is powerful and you can learn anywhere",
+                        "scores": {
+                            "business": 28,
+                            "analytical": 18,
+                            "leadership": 14,
+                            "social": 8,
+                            "technical": 8,
+                            "creative": 2,
+                            "research": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Impact and mission — join a company whose work genuinely matters and aligns with your values",
+                        "scores": {
+                            "social": 22,
+                            "research": 18,
+                            "creative": 14,
+                            "leadership": 14,
+                            "analytical": 12,
+                            "technical": 8,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Network and optionality — go where you meet the best people, since relationships compound most",
+                        "scores": {
+                            "social": 25,
+                            "leadership": 22,
+                            "business": 18,
+                            "creative": 8,
+                            "analytical": 8,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "college_graduate": {
+        "label": "College Graduate (Career Transition)",
+        "description": "10 questions for recent graduates navigating job markets, postgraduate education, or career transitions.",
+        "total": 10,
+        "questions": [
+            {
+                "id": "cg_01",
+                "section": "Career Reflection",
+                "type": "interest_mapping",
+                "question": "Looking back honestly at your academic and early professional experiences — what type of work created the deepest, most genuine engagement for you?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technical and analytical problem-solving — the harder and more complex the problem, the more alive I felt",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 25,
+                            "research": 10,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Collaborating with teams, influencing stakeholders, and driving collective outcomes through people",
+                        "scores": {
+                            "social": 22,
+                            "leadership": 22,
+                            "business": 12,
+                            "analytical": 5,
+                            "creative": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Creative work — designing, writing, building products, generating novel ideas, or visual storytelling",
+                        "scores": {
+                            "creative": 28,
+                            "technical": 12,
+                            "analytical": 12,
+                            "social": 8,
+                            "research": 5,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Research, deep analysis, synthesis, and producing insights that help people make better decisions",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 25,
+                            "technical": 7,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_02",
+                "section": "Definition of Success",
+                "type": "personality_trait",
+                "question": "At this stage of your life and career, what does personal and professional success genuinely mean to you?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Mastery — being the best at my craft, developing deep expertise that few others possess",
+                        "scores": {
+                            "research": 25,
+                            "analytical": 22,
+                            "technical": 18,
+                            "creative": 5,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Financial freedom — building the wealth and assets that give me complete autonomy and choice",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 18,
+                            "analytical": 14,
+                            "social": 10,
+                            "creative": 5,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Making a tangible positive impact — measurably improving lives, communities, or systems that affect people",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "analytical": 10,
+                            "creative": 5,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creating lasting work — a product, company, creative body of work, or idea that endures beyond me",
+                        "scores": {
+                            "creative": 22,
+                            "business": 18,
+                            "technical": 15,
+                            "leadership": 12,
+                            "social": 8,
+                            "analytical": 10,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_03",
+                "section": "Transition Motivation",
+                "type": "situational_judgment",
+                "question": "If you are considering a career transition, what is the primary driver of that change?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "I want deeper technical or intellectual challenge — my current path feels too shallow or slow-moving",
+                        "scores": {
+                            "technical": 22,
+                            "research": 22,
+                            "analytical": 20,
+                            "creative": 8,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "I want more autonomy and ownership — to build something I control rather than execute others' visions",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 22,
+                            "creative": 14,
+                            "analytical": 12,
+                            "social": 5,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "I want more meaning — to work on something that genuinely helps people or contributes to society",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "creative": 10,
+                            "analytical": 10,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I want better financial reward — my current trajectory doesn't match the compensation I know I can earn",
+                        "scores": {
+                            "business": 25,
+                            "analytical": 20,
+                            "leadership": 18,
+                            "technical": 10,
+                            "social": 8,
+                            "creative": 5,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_04",
+                "section": "Skill Inventory",
+                "type": "aptitude_check",
+                "question": "When you honestly audit your professional skills — what do you do noticeably better than most people you have worked with?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technical execution — I build, code, model, or analyse faster and more accurately than my peers",
+                        "scores": {
+                            "technical": 28,
+                            "analytical": 22,
+                            "research": 10,
+                            "creative": 0,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Interpersonal influence — I read people, build relationships, and align groups behind a shared goal",
+                        "scores": {
+                            "social": 26,
+                            "leadership": 24,
+                            "business": 12,
+                            "creative": 5,
+                            "analytical": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Creative problem-solving — I generate original, unexpected ideas and solutions that surprise people",
+                        "scores": {
+                            "creative": 28,
+                            "analytical": 14,
+                            "technical": 12,
+                            "social": 10,
+                            "research": 8,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Research and strategic thinking — I find the best information, synthesise it, and present compelling arguments",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 24,
+                            "business": 8,
+                            "social": 5,
+                            "technical": 5,
+                            "creative": 5,
+                            "leadership": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_05",
+                "section": "Work Environment Preference",
+                "type": "cognitive_style",
+                "question": "Which work environment would allow you to produce your absolute best work and feel most energised daily?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "A research lab, engineering team, or technical organisation — deep work with brilliant domain experts",
+                        "scores": {
+                            "technical": 24,
+                            "research": 22,
+                            "analytical": 20,
+                            "creative": 5,
+                            "social": 5,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "A fast-scaling startup or entrepreneurial venture — fast decisions, high ownership, diverse challenges",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 22,
+                            "creative": 16,
+                            "analytical": 10,
+                            "social": 8,
+                            "technical": 5,
+                            "research": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "A social impact organisation, NGO, school, or healthcare system — meaningful mission, serving people",
+                        "scores": {
+                            "social": 28,
+                            "leadership": 18,
+                            "research": 14,
+                            "analytical": 10,
+                            "creative": 8,
+                            "technical": 2,
+                            "business": 3
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "A creative studio, design firm, media company, or agency — where craft, aesthetics, and originality are valued",
+                        "scores": {
+                            "creative": 30,
+                            "social": 14,
+                            "technical": 12,
+                            "analytical": 10,
+                            "research": 8,
+                            "leadership": 5,
+                            "business": 6
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_06",
+                "section": "Postgraduate Consideration",
+                "type": "aptitude_check",
+                "question": "How do you feel about pursuing postgraduate education — a Master's degree, MBA, or Ph.D — at this stage?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Strongly considering a Ph.D or research Master's — I want to pursue academic depth and original research",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 24,
+                            "technical": 10,
+                            "creative": 8,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Considering an MBA or professional Master's — primarily to accelerate career trajectory and expand network",
+                        "scores": {
+                            "business": 26,
+                            "leadership": 22,
+                            "analytical": 16,
+                            "social": 12,
+                            "technical": 5,
+                            "research": 2,
+                            "creative": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Not interested in more formal education — I learn best by doing, building, and gaining real experience",
+                        "scores": {
+                            "business": 22,
+                            "technical": 18,
+                            "creative": 16,
+                            "analytical": 14,
+                            "leadership": 12,
+                            "social": 8,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Open to a specialised technical Master's if it closes a specific skill gap critical to my target career",
+                        "scores": {
+                            "technical": 22,
+                            "analytical": 20,
+                            "research": 18,
+                            "business": 14,
+                            "leadership": 8,
+                            "social": 5,
+                            "creative": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_07",
+                "section": "Leadership Orientation",
+                "type": "personality_trait",
+                "question": "How do you feel about management and people leadership as a significant part of your career trajectory?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Actively seeking it — I want to lead teams, scale organisations, and eventually run a function or company",
+                        "scores": {
+                            "leadership": 30,
+                            "business": 22,
+                            "social": 18,
+                            "analytical": 8,
+                            "creative": 5,
+                            "technical": 0,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Open but cautious — I want to lead if it serves the mission, but I equally value staying close to the actual work",
+                        "scores": {
+                            "leadership": 18,
+                            "social": 16,
+                            "analytical": 16,
+                            "technical": 12,
+                            "research": 12,
+                            "creative": 8,
+                            "business": 10
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Prefer the individual contributor track — I want to be the world's best at my craft, not manage others",
+                        "scores": {
+                            "technical": 25,
+                            "analytical": 22,
+                            "research": 18,
+                            "creative": 8,
+                            "social": 5,
+                            "leadership": 0,
+                            "business": 2
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Entrepreneurial leadership — I want to build my own team from scratch, not inherit an existing one",
+                        "scores": {
+                            "business": 25,
+                            "leadership": 22,
+                            "creative": 18,
+                            "analytical": 10,
+                            "social": 10,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_08",
+                "section": "Industry Attraction",
+                "type": "interest_mapping",
+                "question": "Which industry or sector, when you think about working in it for the next 5–10 years, genuinely excites you most?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Technology, AI, deeptech, space, or advanced engineering — building the infrastructure of the future",
+                        "scores": {
+                            "technical": 26,
+                            "research": 20,
+                            "analytical": 18,
+                            "creative": 8,
+                            "social": 0,
+                            "leadership": 5,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Finance, consulting, VC, private equity, or professional services — high-leverage advisory and capital work",
+                        "scores": {
+                            "business": 28,
+                            "analytical": 22,
+                            "leadership": 16,
+                            "social": 10,
+                            "technical": 5,
+                            "research": 2,
+                            "creative": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Healthcare, education, government, social enterprise, or international development — mission-driven work",
+                        "scores": {
+                            "social": 28,
+                            "research": 18,
+                            "leadership": 16,
+                            "analytical": 12,
+                            "creative": 8,
+                            "technical": 2,
+                            "business": 1
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Creative industries — media, entertainment, gaming, design, fashion, or brand — where culture is shaped",
+                        "scores": {
+                            "creative": 30,
+                            "social": 16,
+                            "technical": 10,
+                            "analytical": 8,
+                            "research": 8,
+                            "leadership": 5,
+                            "business": 8
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_09",
+                "section": "Near-Term Action",
+                "type": "situational_judgment",
+                "question": "If you had to commit to one concrete 90-day action right now to advance your career in the direction that excites you most, what would you actually do?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "Build a portfolio project, get published, or achieve a technical certification to demonstrate hard skill depth",
+                        "scores": {
+                            "technical": 26,
+                            "analytical": 20,
+                            "research": 16,
+                            "creative": 8,
+                            "social": 0,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "Start a side business, find co-founders, apply to accelerators, or test a business idea with real customers",
+                        "scores": {
+                            "business": 28,
+                            "leadership": 22,
+                            "creative": 15,
+                            "analytical": 12,
+                            "social": 8,
+                            "technical": 5,
+                            "research": 0
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "Network aggressively in my target industry — 50 conversations, 5 informational interviews a week, build relationships",
+                        "scores": {
+                            "social": 26,
+                            "leadership": 20,
+                            "business": 18,
+                            "analytical": 8,
+                            "creative": 8,
+                            "technical": 5,
+                            "research": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "Research and apply to the best graduate programmes or fellowships that align with my intellectual interests",
+                        "scores": {
+                            "research": 28,
+                            "analytical": 22,
+                            "technical": 12,
+                            "creative": 8,
+                            "social": 5,
+                            "leadership": 0,
+                            "business": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "cg_10",
+                "section": "Legacy Vision",
+                "type": "personality_trait",
+                "question": "At the end of a long career — looking back from age 60 — what would make you feel you lived and worked meaningfully?",
+                "options": [
+                    {
+                        "id": "A",
+                        "text": "I contributed to human knowledge or technology in a way that made what was impossible, possible",
+                        "scores": {
+                            "research": 26,
+                            "technical": 22,
+                            "analytical": 18,
+                            "creative": 8,
+                            "social": 5,
+                            "leadership": 5,
+                            "business": 0
+                        }
+                    },
+                    {
+                        "id": "B",
+                        "text": "I built organisations that created prosperity, jobs, and economic opportunity for thousands of people",
+                        "scores": {
+                            "business": 26,
+                            "leadership": 24,
+                            "social": 14,
+                            "analytical": 12,
+                            "creative": 8,
+                            "technical": 2,
+                            "research": 2
+                        }
+                    },
+                    {
+                        "id": "C",
+                        "text": "I touched and improved the lives of many individuals — through teaching, healing, counselling, or service",
+                        "scores": {
+                            "social": 30,
+                            "leadership": 18,
+                            "research": 14,
+                            "analytical": 10,
+                            "creative": 8,
+                            "technical": 0,
+                            "business": 5
+                        }
+                    },
+                    {
+                        "id": "D",
+                        "text": "I created enduring work — art, stories, designs, or products that made life richer, more beautiful, or more human",
+                        "scores": {
+                            "creative": 28,
+                            "social": 18,
+                            "technical": 14,
+                            "leadership": 10,
+                            "research": 8,
+                            "analytical": 8,
+                            "business": 5
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

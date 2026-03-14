@@ -1,0 +1,101 @@
+analytical,technical,creative,social,leadership,business,research,career_id,career_label
+92,88,22,15,38,28,72,data_scientist,Data Scientist
+88,92,18,10,32,22,68,ai_ml_engineer,AI / ML Engineer
+72,90,30,22,44,32,30,software_engineer,Software Engineer
+80,84,32,28,42,28,60,robotics_engineer,Robotics Engineer
+90,38,48,30,36,26,92,research_scientist,Research Scientist
+70,72,38,50,40,30,58,biomedical_engineer,Biomedical Engineer
+28,22,92,68,52,48,18,ux_ui_designer,UX / UI Designer
+30,12,42,92,56,30,66,clinical_psychologist,Clinical Psychologist
+78,28,22,50,56,86,58,chartered_accountant,Chartered Accountant (CA)
+72,28,30,66,78,88,42,investment_banker,Investment Banker
+50,40,62,68,88,88,28,entrepreneur,Entrepreneur / Startup Founder
+52,22,36,80,86,68,56,civil_services,Civil Services Officer (IAS / IPS / IFS)
+38,66,88,52,42,30,26,architect,Architect
+58,18,56,80,70,50,56,lawyer,Advocate / Corporate Lawyer
+64,40,30,80,64,40,68,doctor_mbbs,Medical Doctor (MBBS + Specialisation)
+72,65,40,50,62,72,38,product_manager,Product Manager
+22,18,92,55,45,55,15,fashion_designer,Fashion / Textile Designer
+45,20,62,78,40,28,55,journalist,Journalist / Media Professional
+60,45,30,50,30,22,80,environmental_scientist,Environmental Scientist
+35,20,55,80,50,35,45,teacher_educator,Teacher / Academic Educator
+90,86,24,16,40,30,70,data_scientist,Data Scientist
+86,90,20,12,34,24,66,ai_ml_engineer,AI / ML Engineer
+70,88,28,24,46,34,28,software_engineer,Software Engineer
+78,82,30,30,44,30,58,robotics_engineer,Robotics Engineer
+88,36,44,32,38,28,90,research_scientist,Research Scientist
+68,70,40,52,42,32,56,biomedical_engineer,Biomedical Engineer
+26,20,94,70,50,46,16,ux_ui_designer,UX / UI Designer
+28,10,44,94,58,32,64,clinical_psychologist,Clinical Psychologist
+76,26,20,52,58,88,56,chartered_accountant,Chartered Accountant (CA)
+70,26,28,68,80,90,40,investment_banker,Investment Banker
+48,38,64,70,90,90,26,entrepreneur,Entrepreneur / Startup Founder
+50,20,34,82,88,66,56,civil_services,Civil Services Officer (IAS / IPS / IFS)
+36,64,90,50,40,28,24,architect,Architect
+56,16,54,82,72,50,56,lawyer,Advocate / Corporate Lawyer
+62,38,28,82,66,40,66,doctor_mbbs,Medical Doctor (MBBS + Specialisation)
+70,62,42,52,64,70,36,product_manager,Product Manager
+20,16,94,58,44,52,12,fashion_designer,Fashion / Textile Designer
+42,18,60,80,42,26,52,journalist,Journalist / Media Professional
+58,44,28,48,28,20,82,environmental_scientist,Environmental Scientist
+34,18,52,82,52,34,44,teacher_educator,Teacher / Academic Educator
+88,84,26,18,42,32,68,data_scientist,Data Scientist
+84,88,22,14,36,26,62,ai_ml_engineer,AI / ML Engineer
+68,86,32,26,48,36,26,software_engineer,Software Engineer
+76,80,34,32,46,32,56,robotics_engineer,Robotics Engineer
+86,34,50,34,40,30,88,research_scientist,Research Scientist
+66,68,42,54,44,34,54,biomedical_engineer,Biomedical Engineer
+24,18,96,72,54,50,14,ux_ui_designer,UX / UI Designer
+26,8,46,96,60,34,62,clinical_psychologist,Clinical Psychologist
+74,24,24,54,60,90,54,chartered_accountant,Chartered Accountant (CA)
+68,24,32,70,82,92,38,investment_banker,Investment Banker
+46,36,66,72,92,92,24,entrepreneur,Entrepreneur / Startup Founder
+48,18,38,84,90,70,54,civil_services,Civil Services Officer (IAS / IPS / IFS)
+34,62,92,54,44,32,22,architect,Architect
+54,14,58,84,74,52,54,lawyer,Advocate / Corporate Lawyer
+60,36,32,84,68,42,64,doctor_mbbs,Medical Doctor (MBBS + Specialisation)
+68,60,44,54,66,74,34,product_manager,Product Manager
+18,14,96,60,46,54,10,fashion_designer,Fashion / Textile Designer
+40,16,62,82,44,28,50,journalist,Journalist / Media Professional
+56,42,32,50,32,24,80,environmental_scientist,Environmental Scientist
+32,16,54,84,54,36,42,teacher_educator,Teacher / Academic Educator
+85,83,27,19,41,31,69,data_scientist,Data Scientist
+83,91,21,13,35,25,63,ai_ml_engineer,AI / ML Engineer
+69,87,31,25,47,35,27,software_engineer,Software Engineer
+77,81,33,31,45,31,57,robotics_engineer,Robotics Engineer
+87,35,47,33,39,29,89,research_scientist,Research Scientist
+67,69,41,53,43,33,53,biomedical_engineer,Biomedical Engineer
+25,19,93,69,51,47,15,ux_ui_designer,UX / UI Designer
+27,9,43,93,57,31,63,clinical_psychologist,Clinical Psychologist
+75,25,21,51,57,87,57,chartered_accountant,Chartered Accountant (CA)
+69,25,29,67,79,89,39,investment_banker,Investment Banker
+47,37,63,67,89,89,25,entrepreneur,Entrepreneur / Startup Founder
+49,19,35,81,87,67,55,civil_services,Civil Services Officer (IAS / IPS / IFS)
+35,63,89,51,41,29,23,architect,Architect
+55,15,55,81,71,51,55,lawyer,Advocate / Corporate Lawyer
+61,37,29,81,65,41,65,doctor_mbbs,Medical Doctor (MBBS + Specialisation)
+69,61,43,53,65,73,35,product_manager,Product Manager
+19,15,93,57,43,51,11,fashion_designer,Fashion / Textile Designer
+41,17,61,79,41,25,51,journalist,Journalist / Media Professional
+57,43,29,47,29,21,81,environmental_scientist,Environmental Scientist
+33,17,51,81,51,33,43,teacher_educator,Teacher / Academic Educator
+93,87,23,17,37,27,73,data_scientist,Data Scientist
+89,93,19,11,33,23,67,ai_ml_engineer,AI / ML Engineer
+73,91,27,21,43,31,31,software_engineer,Software Engineer
+81,85,29,27,41,27,61,robotics_engineer,Robotics Engineer
+91,37,45,29,35,25,91,research_scientist,Research Scientist
+71,73,37,49,39,29,57,biomedical_engineer,Biomedical Engineer
+29,21,91,67,53,49,17,ux_ui_designer,UX / UI Designer
+31,11,41,91,55,29,67,clinical_psychologist,Clinical Psychologist
+79,29,23,49,55,85,59,chartered_accountant,Chartered Accountant (CA)
+73,29,31,63,77,87,43,investment_banker,Investment Banker
+51,41,61,63,87,87,27,entrepreneur,Entrepreneur / Startup Founder
+53,23,33,79,85,65,57,civil_services,Civil Services Officer (IAS / IPS / IFS)
+37,65,87,49,39,27,25,architect,Architect
+57,17,53,79,69,49,57,lawyer,Advocate / Corporate Lawyer
+63,39,27,79,63,39,67,doctor_mbbs,Medical Doctor (MBBS + Specialisation)
+73,63,39,49,61,71,37,product_manager,Product Manager
+21,17,91,55,41,49,13,fashion_designer,Fashion / Textile Designer
+43,19,59,77,39,23,53,journalist,Journalist / Media Professional
+59,47,27,45,27,19,83,environmental_scientist,Environmental Scientist
+37,21,49,79,49,31,47,teacher_educator,Teacher / Academic Educator
